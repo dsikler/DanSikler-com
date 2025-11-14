@@ -13,7 +13,7 @@ const ventures = [
     href: '/budget-app',
     icon: Calculator,
     color: 'bg-teal-600',
-    ventureType: 'finance',
+    ventureType: 'finance' as const,
   },
   {
     title: 'Elevate Asset Management',
@@ -21,7 +21,7 @@ const ventures = [
     href: '/elevate',
     icon: Building2,
     color: 'bg-amber-600',
-    ventureType: 'asset',
+    ventureType: 'asset' as const,
   },
   {
     title: 'Yak Brothers',
@@ -30,7 +30,7 @@ const ventures = [
     icon: Bone,
     color: 'bg-green-600',
     comingSoon: false,
-    ventureType: 'yak',
+    ventureType: 'yak' as const,
   },
   {
     title: 'Resume and Skills',
@@ -38,7 +38,7 @@ const ventures = [
     href: '/resume',
     icon: Briefcase,
     color: 'bg-blue-900',
-    ventureType: 'personal',
+    ventureType: 'personal' as const,
   },
 ]
 
