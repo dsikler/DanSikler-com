@@ -11,8 +11,10 @@ const blobs = [
 
 const InteractiveBackground = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    setMounted(true)
     const handleMouseMove = (e: MouseEvent) => {
       setMousePos({ x: e.clientX, y: e.clientY })
     }
@@ -22,12 +24,15 @@ const InteractiveBackground = () => {
   }, [])
 
   const calcOffset = (blobIndex: number) => {
+    if (typeof window === 'undefined') return { x: 0, y: 0 }
     const factor = (blobIndex + 1) * 0.02
     return {
       x: (mousePos.x - window.innerWidth / 2) * factor,
       y: (mousePos.y - window.innerHeight / 2) * factor,
     }
   }
+
+  if (!mounted) return null
 
   return (
     <div className="absolute inset-0 overflow-hidden z-0">
