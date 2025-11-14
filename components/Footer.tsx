@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-white">Dan Sikler</h3>
-            <p className="text-white body-text">
+            <p className="text-white text-base leading-relaxed">
               Building Value Across Industries
             </p>
           </div>
