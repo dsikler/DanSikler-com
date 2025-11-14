@@ -10,7 +10,7 @@ const ventures = [
   {
     title: 'The Elevate Ledger',
     description: 'Personal finance management tool to track expenses and manage budgets effectively.',
-    href: '/budget-app',
+    href: 'https://elevate-ledger.netlify.app/',
     icon: Calculator,
     color: 'bg-teal-600',
     ventureType: 'finance' as const,
@@ -26,7 +26,7 @@ const ventures = [
   {
     title: 'Yak Brothers',
     description: 'E-commerce platform for premium dog chews and pet products.',
-    href: '/yak-bones',
+    href: 'https://yak-brothers.netlify.app/',
     icon: Bone,
     color: 'bg-green-600',
     comingSoon: false,

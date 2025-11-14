@@ -8,9 +8,9 @@ import { useState } from 'react'
 const navItems = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
-  { href: '/budget-app', label: 'The Elevate Ledger' },
+  { href: 'https://elevate-ledger.netlify.app/', label: 'The Elevate Ledger' },
   { href: '/elevate', label: 'Elevate Asset Management' },
-  { href: '/yak-bones', label: 'Yak Brothers' },
+  { href: 'https://yak-brothers.netlify.app/', label: 'Yak Brothers' },
   { href: '/resume', label: 'Resume' },
 ]
 
