@@ -45,19 +45,9 @@ export default function Home() {
               </div>
               
               {/* Name - Large and bold */}
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
                 Dan Sikler
               </h1>
-              
-              {/* Animated tagline */}
-              <div className="flex items-center gap-3 text-2xl md:text-3xl font-semibold mb-6 justify-center lg:justify-start flex-wrap">
-                <span className="text-violet-400">From</span>
-                <span className="text-white">Code</span>
-                <ArrowRight className="w-6 h-6 text-violet-400" />
-                <span className="text-white">Capital</span>
-                <ArrowRight className="w-6 h-6 text-violet-400" />
-                <span className="text-white">Commerce</span>
-              </div>
               
               {/* Description */}
               <p className="text-xl text-indigo-100 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
