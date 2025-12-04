@@ -25,11 +25,11 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-slate-900 to-teal-900 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br from-indigo-900 via-slate-900 to-violet-900 text-white overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-teal-500/20 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+          <div className="absolute top-0 right-0 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 left-0 w-80 h-80 bg-indigo-500/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-3xl"></div>
         </div>
         
@@ -39,7 +39,7 @@ export default function Home() {
             {/* Left: Text content */}
             <div className="text-center lg:text-left">
               {/* Badge/Tag */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-teal-500/20 backdrop-blur-sm border border-teal-400/30 rounded-full text-teal-300 text-sm font-semibold mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-violet-500/20 backdrop-blur-sm border border-violet-400/30 rounded-full text-violet-300 text-sm font-semibold mb-6">
                 <Sparkles className="w-4 h-4" />
                 <span>Building ventures across industries</span>
               </div>
@@ -51,16 +51,16 @@ export default function Home() {
               
               {/* Animated tagline */}
               <div className="flex items-center gap-3 text-2xl md:text-3xl font-semibold mb-6 justify-center lg:justify-start flex-wrap">
-                <span className="text-teal-400">From</span>
+                <span className="text-violet-400">From</span>
                 <span className="text-white">Code</span>
-                <ArrowRight className="w-6 h-6 text-teal-400" />
+                <ArrowRight className="w-6 h-6 text-violet-400" />
                 <span className="text-white">Capital</span>
-                <ArrowRight className="w-6 h-6 text-teal-400" />
+                <ArrowRight className="w-6 h-6 text-violet-400" />
                 <span className="text-white">Commerce</span>
               </div>
               
               {/* Description */}
-              <p className="text-xl text-blue-100 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              <p className="text-xl text-indigo-100 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                 Trust & Safety leader, AI specialist, real estate investor, and entrepreneur. 
                 Building ventures that create value across technology, property, and e-commerce.
               </p>
@@ -69,7 +69,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a 
                   href="/about" 
-                  className="group px-8 py-4 bg-teal-500 hover:bg-teal-400 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-3"
+                  className="group px-8 py-4 bg-indigo-500 hover:bg-indigo-400 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-3"
                 >
                   <User className="w-5 h-5" />
                   Learn More About Me
@@ -88,11 +88,11 @@ export default function Home() {
               <div className="flex items-center gap-6 mt-10 text-sm justify-center lg:justify-start flex-wrap">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-blue-200">Available for opportunities</span>
+                  <span className="text-indigo-200">Available for opportunities</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-blue-300" />
-                  <span className="text-blue-200">Wadsworth, OH</span>
+                  <MapPin className="w-4 h-4 text-indigo-300" />
+                  <span className="text-indigo-200">Wadsworth, OH</span>
                 </div>
               </div>
             </div>
@@ -101,11 +101,11 @@ export default function Home() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
                 {/* Decorative elements */}
-                <div className="absolute -inset-4 bg-gradient-to-r from-teal-500 to-blue-500 rounded-3xl blur-2xl opacity-30 animate-pulse"></div>
+                <div className="absolute -inset-4 bg-gradient-to-r from-violet-500 to-indigo-500 rounded-3xl blur-2xl opacity-30 animate-pulse"></div>
                 
                 {/* Image container */}
                 <div className="relative w-80 h-80 md:w-96 md:h-96">
-                  <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-blue-600 rounded-3xl"></div>
+                  <div className="absolute inset-0 bg-gradient-to-br from-violet-400 to-indigo-600 rounded-3xl"></div>
                   <img 
                     src="/dan-sikler-photo.jpg" 
                     alt="Dan Sikler" 
@@ -169,19 +169,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Card 1: Resume & Skills - PRIMARY FOCUS */}
             <a href="/resume" className="group relative h-full flex">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-blue-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
+              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-indigo-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
                 {/* Gradient accent bar */}
-                <div className="h-2 bg-gradient-to-r from-blue-600 to-blue-400"></div>
+                <div className="h-2 bg-gradient-to-r from-indigo-600 to-indigo-400"></div>
                 
                 {/* Content */}
                 <div className="p-8 flex flex-col flex-1">
                   {/* Icon with animation */}
-                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <Briefcase className="w-8 h-8 text-white" />
                   </div>
                   
                   {/* Title */}
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors">
                     Resume & Skills
                   </h3>
                   
@@ -192,40 +192,40 @@ export default function Home() {
                   
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs font-semibold">
                       AI/ML
                     </span>
-                    <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs font-semibold">
                       Operations
                     </span>
-                    <span className="px-3 py-1 bg-blue-50 text-blue-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-xs font-semibold">
                       Leadership
                     </span>
                   </div>
                   
                   {/* CTA */}
-                  <div className="flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all mt-auto">
+                  <div className="flex items-center gap-2 text-indigo-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>View Experience</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
                 
                 {/* Hover effect overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
               </div>
             </a>
             
             {/* Card 2: Elevate Finance (Ledger) */}
             <a href="/budget-app" className="group relative h-full flex">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-teal-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
-                <div className="h-2 bg-gradient-to-r from-teal-600 to-teal-400"></div>
+              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-violet-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
+                <div className="h-2 bg-gradient-to-r from-violet-600 to-violet-400"></div>
                 
                 <div className="p-8 flex flex-col flex-1">
-                  <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-violet-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <TrendingUp className="w-8 h-8 text-white" />
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-violet-600 transition-colors">
                     Elevate Finance
                   </h3>
                   
@@ -234,24 +234,24 @@ export default function Home() {
                   </p>
                   
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-violet-50 text-violet-700 rounded-full text-xs font-semibold">
                       React
                     </span>
-                    <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-violet-50 text-violet-700 rounded-full text-xs font-semibold">
                       FinTech
                     </span>
-                    <span className="px-3 py-1 bg-teal-50 text-teal-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-violet-50 text-violet-700 rounded-full text-xs font-semibold">
                       SaaS
                     </span>
                   </div>
                   
-                  <div className="flex items-center gap-2 text-teal-600 font-semibold group-hover:gap-3 transition-all mt-auto">
+                  <div className="flex items-center gap-2 text-violet-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>Try the App</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
                 
-                <div className="absolute inset-0 bg-gradient-to-br from-teal-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-violet-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
               </div>
             </a>
             
@@ -344,7 +344,7 @@ export default function Home() {
       </section>
 
       {/* Skills Snapshot Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-indigo-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -365,8 +365,8 @@ export default function Home() {
             </div>
             
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                <Code className="w-6 h-6 text-blue-600" />
+              <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <Code className="w-6 h-6 text-indigo-600" />
               </div>
               <h3 className="font-bold text-gray-900 mb-1">Development</h3>
               <p className="text-sm text-gray-600">React, SQL, JavaScript</p>
@@ -392,17 +392,17 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 to-teal-900 text-white">
+      <section className="py-20 bg-gradient-to-br from-indigo-900 to-violet-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Let's Build Something Together
           </h2>
-          <p className="text-xl text-blue-100 mb-10 leading-relaxed">
+          <p className="text-xl text-indigo-100 mb-10 leading-relaxed">
             Open to opportunities in AI/ML, operations leadership, and venture collaboration. 
             Whether you're hiring, investing, or just want to connect—I'd love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:sikler.dan@gmail.com" className="px-10 py-4 bg-teal-500 hover:bg-teal-400 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-2">
+            <a href="mailto:sikler.dan@gmail.com" className="px-10 py-4 bg-indigo-500 hover:bg-indigo-400 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-2">
               <Mail className="w-5 h-5" />
               Get In Touch
             </a>
