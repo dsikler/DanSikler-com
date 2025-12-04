@@ -180,19 +180,6 @@ export default function Home() {
                     Trust & Safety leader with expertise in AI training, prompt engineering, and operations at scale
                   </p>
                   
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-steel-50 text-steel-700 rounded-full text-xs font-semibold">
-                      AI/ML
-                    </span>
-                    <span className="px-3 py-1 bg-steel-50 text-steel-700 rounded-full text-xs font-semibold">
-                      Operations
-                    </span>
-                    <span className="px-3 py-1 bg-steel-50 text-steel-700 rounded-full text-xs font-semibold">
-                      Leadership
-                    </span>
-                  </div>
-                  
                   {/* CTA */}
                   <div className="flex items-center gap-2 text-steel-700 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>View Experience</span>
@@ -220,20 +207,8 @@ export default function Home() {
                   </h3>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Smart budgeting tool that makes tracking finances simple—helping you save more without feeling restricted
+                    Smart budgeting tool that makes tracking finances simple, helping you save more without feeling restricted
                   </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold">
-                      React
-                    </span>
-                    <span className="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold">
-                      FinTech
-                    </span>
-                    <span className="px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs font-semibold">
-                      SaaS
-                    </span>
-                  </div>
                   
                   <div className="flex items-center gap-2 text-emerald-700 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>Try the App</span>
@@ -260,20 +235,8 @@ export default function Home() {
                   </h3>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Strategic real estate investment—property flips and rental portfolio building wealth through property
+                    Strategic real estate investment through property flips and rental portfolio building wealth through property
                   </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs font-semibold">
-                      Real Estate
-                    </span>
-                    <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs font-semibold">
-                      Investment
-                    </span>
-                    <span className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full text-xs font-semibold">
-                      Rentals
-                    </span>
-                  </div>
                   
                   <div className="flex items-center gap-2 text-amber-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>View Portfolio</span>
@@ -305,20 +268,8 @@ export default function Home() {
                   </h3>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Premium, all-natural yak chews for dogs—healthier treats that last longer and make tails wag
+                    Premium, all-natural yak chews for dogs, healthier treats that last longer and make tails wag
                   </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-semibold">
-                      E-commerce
-                    </span>
-                    <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-semibold">
-                      Pet Products
-                    </span>
-                    <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-semibold">
-                      Natural
-                    </span>
-                  </div>
                   
                   <div className="flex items-center gap-2 text-green-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>Learn More</span>
@@ -389,7 +340,7 @@ export default function Home() {
           </h2>
           <p className="text-xl text-slate-300 mb-10 leading-relaxed">
             Open to opportunities in AI/ML, operations leadership, and venture collaboration. 
-            Whether you're hiring, investing, or just want to connect—I'd love to hear from you.
+            Whether you're hiring, investing, or just want to connect, I'd love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="mailto:sikler.dan@gmail.com" className="px-10 py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-2">

@@ -12,7 +12,7 @@ export default function Resume() {
             <a
               href="/Dan_Sikler_Resume.pdf"
               download="Dan_Sikler_Resume.pdf"
-              className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+              className="flex items-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-emerald-700 transition-colors shadow-lg"
             >
               <Download size={20} />
               Download PDF
@@ -22,7 +22,7 @@ export default function Resume() {
           {/* Resume PDF Viewer */}
           <div className="bg-white rounded-2xl shadow-xl p-6 mb-8 border border-gray-200">
             <div className="flex items-center gap-3 mb-4">
-              <FileText className="text-blue-600" size={28} />
+              <FileText className="text-emerald-600" size={28} />
               <h2 className="text-2xl font-semibold text-gray-800">Resume</h2>
             </div>
             
