@@ -402,11 +402,11 @@ export default function Home() {
             Whether you're hiring, investing, or just want to connect—I'd love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" className="px-10 py-4 bg-teal-500 hover:bg-teal-400 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-2">
+            <a href="mailto:sikler.dan@gmail.com" className="px-10 py-4 bg-teal-500 hover:bg-teal-400 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-2">
               <Mail className="w-5 h-5" />
               Get In Touch
             </a>
-            <a href="/resume" className="px-10 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white rounded-xl font-semibold text-lg hover:scale-105 transition-all flex items-center justify-center gap-2">
+            <a href="/resume.pdf" download className="px-10 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white rounded-xl font-semibold text-lg hover:scale-105 transition-all flex items-center justify-center gap-2">
               <Download className="w-5 h-5" />
               Download Resume
             </a>
