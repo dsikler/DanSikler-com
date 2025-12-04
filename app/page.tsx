@@ -161,20 +161,20 @@ export default function Home() {
               What I'm Building
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Exploring ventures across multiple industries—each designed to solve real problems and create lasting value
+              Exploring ventures across multiple industries, each designed to solve real problems and create lasting value
             </p>
           </div>
           
           {/* Venture cards grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Card 1: Resume & Skills - PRIMARY FOCUS */}
-            <a href="/resume" className="group relative">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-blue-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <a href="/resume" className="group relative h-full flex">
+              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-blue-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
                 {/* Gradient accent bar */}
                 <div className="h-2 bg-gradient-to-r from-blue-600 to-blue-400"></div>
                 
                 {/* Content */}
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-1">
                   {/* Icon with animation */}
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <Briefcase className="w-8 h-8 text-white" />
@@ -186,7 +186,7 @@ export default function Home() {
                   </h3>
                   
                   {/* Description */}
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
                     Trust & Safety leader with expertise in AI training, prompt engineering, and operations at scale
                   </p>
                   
@@ -204,7 +204,7 @@ export default function Home() {
                   </div>
                   
                   {/* CTA */}
-                  <div className="flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-blue-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>View Experience</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -216,11 +216,11 @@ export default function Home() {
             </a>
             
             {/* Card 2: Elevate Finance (Ledger) */}
-            <a href="/budget-app" className="group relative">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-teal-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <a href="/budget-app" className="group relative h-full flex">
+              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-teal-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
                 <div className="h-2 bg-gradient-to-r from-teal-600 to-teal-400"></div>
                 
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-1">
                   <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <TrendingUp className="w-8 h-8 text-white" />
                   </div>
@@ -229,7 +229,7 @@ export default function Home() {
                     Elevate Finance
                   </h3>
                   
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
                     Smart budgeting tool that makes tracking finances simple—helping you save more without feeling restricted
                   </p>
                   
@@ -245,7 +245,7 @@ export default function Home() {
                     </span>
                   </div>
                   
-                  <div className="flex items-center gap-2 text-teal-600 font-semibold group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-teal-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>Try the App</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -256,11 +256,11 @@ export default function Home() {
             </a>
             
             {/* Card 3: Elevate Asset Management */}
-            <a href="/elevate" className="group relative">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-amber-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <a href="/elevate" className="group relative h-full flex">
+              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-amber-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
                 <div className="h-2 bg-gradient-to-r from-amber-600 to-amber-400"></div>
                 
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-1">
                   <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <Building2 className="w-8 h-8 text-white" />
                   </div>
@@ -269,7 +269,7 @@ export default function Home() {
                     Elevate Asset Management
                   </h3>
                   
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
                     Strategic real estate investment—property flips and rental portfolio building wealth through property
                   </p>
                   
@@ -285,7 +285,7 @@ export default function Home() {
                     </span>
                   </div>
                   
-                  <div className="flex items-center gap-2 text-amber-600 font-semibold group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-amber-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>View Portfolio</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -296,11 +296,11 @@ export default function Home() {
             </a>
             
             {/* Card 4: Yak Bones */}
-            <a href="/yak-bones" className="group relative">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-green-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <a href="/yak-bones" className="group relative h-full flex">
+              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-green-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
                 <div className="h-2 bg-gradient-to-r from-green-600 to-green-400"></div>
                 
-                <div className="p-8">
+                <div className="p-8 flex flex-col flex-1">
                   <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <Heart className="w-8 h-8 text-white" />
                   </div>
@@ -314,7 +314,7 @@ export default function Home() {
                     Yak Bones
                   </h3>
                   
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
                     Premium, all-natural yak chews for dogs—healthier treats that last longer and make tails wag
                   </p>
                   
@@ -330,7 +330,7 @@ export default function Home() {
                     </span>
                   </div>
                   
-                  <div className="flex items-center gap-2 text-green-600 font-semibold group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-green-600 font-semibold group-hover:gap-3 transition-all mt-auto">
                     <span>Learn More</span>
                     <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </div>
