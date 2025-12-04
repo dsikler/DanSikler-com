@@ -10,6 +10,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Animation delays */
+  --animate-delay-1000: 1s;
 }
 
 @media (prefers-color-scheme: dark) {
