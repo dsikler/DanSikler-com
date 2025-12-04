@@ -7,8 +7,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dan Sikler - Entrepreneur & Portfolio',
-  description: 'Portfolio website showcasing ventures in tech, real estate, and e-commerce',
+  title: 'Dan Sikler - Trust & Safety Leader, AI Specialist, Entrepreneur',
+  description: 'Trust & Safety leader, AI specialist, real estate investor, and entrepreneur. Building ventures that create value across technology, property, and e-commerce.',
 }
 
 export default function RootLayout({
