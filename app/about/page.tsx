@@ -36,7 +36,7 @@ export default function About() {
               I lead Trust & Safety operations for one of the world's largest job platforms, specializing in AI model training, prompt engineering, and content moderation at scale. My work involves training GPT models, designing golden datasets, and building SQL-based frameworks that balance automation with human oversight.
             </p>
             <p>
-              With a background in Finance from Kent State University and 6+ years in operations, I've managed global BPO teams, driven complex technical migrations, and implemented data-driven solutions that improve accuracy and efficiency. I'm passionate about leveraging AI to make systems smarter, safer, and more effective.
+              With a background in Finance from Kent State University and 10+ years in operations, I've managed global BPO teams, driven complex technical migrations, and implemented data-driven solutions that improve accuracy and efficiency. I'm passionate about leveraging AI to make systems smarter, safer, and more effective.
             </p>
           </div>
         </section>

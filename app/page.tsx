@@ -146,7 +146,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-3">
               <Award className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">6+ Years Experience</span>
+              <span className="text-gray-600 font-semibold">10+ Years Experience</span>
             </div>
           </div>
         </div>
