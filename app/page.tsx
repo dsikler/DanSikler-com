@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-blue-300" />
-                  <span className="text-blue-200">St. Augustine, FL</span>
+                  <span className="text-blue-200">Wadsworth, OH</span>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">St. Augustine, Florida</span>
+              <span className="text-gray-600 font-semibold">Wadsworth, Ohio</span>
             </div>
             <div className="flex items-center gap-3">
               <Award className="w-5 h-5 text-gray-400" />

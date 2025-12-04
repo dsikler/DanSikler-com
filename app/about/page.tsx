@@ -14,7 +14,7 @@ export default function About() {
               Trust & Safety Program Leader | AI Enthusiast | Real Estate Investor
             </h2>
             <p className="text-lg text-white leading-relaxed">
-              Based in St. Augustine, Florida, I'm a Trust & Safety operations program leader at Indeed, where I train AI models and optimize content moderation systems. Beyond my day job, I'm an entrepreneur building ventures across technology, real estate, and e-commerce, always looking for ways to create value and solve real problems.
+              Based in Wadsworth, Ohio, I'm a Trust & Safety operations program leader at Indeed, where I train AI models and optimize content moderation systems. Beyond my day job, I'm an entrepreneur building ventures across technology, real estate, and e-commerce, always looking for ways to create value and solve real problems.
             </p>
           </div>
 
