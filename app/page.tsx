@@ -182,13 +182,13 @@ export default function Home() {
                   
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-slate-100 text-steel-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-steel-50 text-steel-700 rounded-full text-xs font-semibold">
                       AI/ML
                     </span>
-                    <span className="px-3 py-1 bg-slate-100 text-steel-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-steel-50 text-steel-700 rounded-full text-xs font-semibold">
                       Operations
                     </span>
-                    <span className="px-3 py-1 bg-slate-100 text-steel-700 rounded-full text-xs font-semibold">
+                    <span className="px-3 py-1 bg-steel-50 text-steel-700 rounded-full text-xs font-semibold">
                       Leadership
                     </span>
                   </div>
@@ -355,7 +355,7 @@ export default function Home() {
             </div>
             
             <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <div className="w-12 h-12 bg-steel-100 rounded-xl flex items-center justify-center mx-auto mb-3">
                 <Code className="w-6 h-6 text-steel-700" />
               </div>
               <h3 className="font-bold text-gray-900 mb-1">Development</h3>
