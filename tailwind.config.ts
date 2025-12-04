@@ -9,33 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Override default blue with vibrant indigo
-        blue: {
-          50: '#eef2ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          300: '#a5b4fc',
-          400: '#818cf8',
-          500: '#6366f1', // indigo-500
-          600: '#4f46e5', // indigo-600 - primary brand color
-          700: '#4338ca', // indigo-700
-          800: '#3730a3',
-          900: '#312e81', // darker indigo for gradients
-        },
-        // Override default teal with modern teal (keeping for compatibility)
-        teal: {
-          50: '#f0fdfa',
-          100: '#ccfbf1',
-          200: '#99f6e4',
-          300: '#5eead4',
-          400: '#2dd4bf',
-          500: '#14b8a6',
-          600: '#0d9488',
-          700: '#0f766e',
-          800: '#115e59',
-          900: '#134e4a',
-        },
-        // Modern Slate Scale (already in Tailwind, but ensuring it's available)
+        // Modern Slate Scale - Primary neutrals
         slate: {
           50: '#f8fafc',
           100: '#f1f5f9',
@@ -48,39 +22,46 @@ const config: Config = {
           800: '#1e293b',
           900: '#0f172a',
         },
-        // Primary Brand Color - Vibrant Indigo
+        // Primary Brand - Deep Steel Blue (masculine, professional)
         primary: {
-          DEFAULT: '#4f46e5', // indigo-600
-          dark: '#4338ca', // indigo-700
-          light: '#6366f1', // indigo-500
+          DEFAULT: '#1e40af', // Deep steel blue
+          dark: '#1e3a8a',
+          light: '#3b82f6',
         },
-        // Accent Colors
+        // Accent - Rich Emerald Green (masculine, modern)
         accent: {
-          DEFAULT: '#0d9488', // Teal (keeping for compatibility)
-          dark: '#0f766e',
-          light: '#14b8a6',
+          DEFAULT: '#059669', // Rich emerald
+          dark: '#047857',
+          light: '#10b981',
         },
-        indigo: {
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
+        // Steel Blue for hero sections
+        steel: {
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
         },
-        violet: {
-          500: '#8b5cf6',
-          600: '#7c3aed',
+        // Emerald Green for accents
+        emerald: {
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
         },
         // Venture-Specific Accent Colors
         venture: {
-          personal: '#4f46e5', // Indigo for Personal/Resume
-          finance: '#0d9488', // Teal for Elevate Finance
-          asset: '#f59e0b', // Gold/Amber for Elevate Asset Management
-          yak: '#10b981', // Green for Yak Bones
+          personal: '#1e40af', // Steel blue for Personal/Resume
+          finance: '#059669', // Emerald for Elevate Finance
+          asset: '#d97706', // Rich amber for Elevate Asset Management
+          yak: '#059669', // Emerald for Yak Bones
         },
         // Functional Colors
-        success: '#10b981',
-        warning: '#f59e0b',
-        error: '#ef4444',
-        info: '#6366f1',
+        success: '#059669',
+        warning: '#d97706',
+        error: '#dc2626',
+        info: '#2563eb',
       },
       fontFamily: {
         sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'system-ui', 'sans-serif'],
