@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Master Brand Colors */
+  --navy-blue: #1e3a8a;
+  --teal: #0d9488;
+  --charcoal: #1e293b;
+  --light-gray: #f8fafc;
+  --white: #ffffff;
+  
+  /* Text Colors */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  
+  /* Venture Accent Colors */
+  --venture-personal: #1e3a8a;
+  --venture-finance: #0d9488;
+  --venture-asset: #f59e0b;
+  --venture-yak: #10b981;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--light-gray);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Typography Hierarchy */
+  .site-logo {
+    @apply text-2xl md:text-3xl font-bold text-blue-900;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  
+  .hero-headline {
+    @apply text-5xl md:text-6xl font-bold;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .hero-tagline {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .page-title {
+    @apply text-4xl font-bold text-slate-900;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold text-slate-900;
+  }
+  
+  .subsection-title {
+    @apply text-2xl font-semibold text-slate-800;
+  }
+  
+  .card-title {
+    @apply text-xl font-semibold text-slate-900;
+  }
+  
+  .body-text {
+    @apply text-base text-slate-700 leading-relaxed;
+  }
+  
+  .small-text {
+    @apply text-sm text-slate-600;
+  }
+  
+  .caption-text {
+    @apply text-xs text-slate-500;
+  }
+  
+  /* Financial numbers use monospace */
+  .financial {
+    @apply font-mono;
+  }
+  
+  /* Animated gradient background */
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-gradient-shift {
+    background-size: 200% 200%;
+    animation: gradient-shift 15s ease infinite;
+  }
+}
+
