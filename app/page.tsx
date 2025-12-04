@@ -166,7 +166,7 @@ export default function Home() {
                 {/* Content */}
                 <div className="p-8 flex flex-col flex-1">
                   {/* Icon with animation */}
-                  <div className="w-16 h-16 bg-gradient-to-br from-steel-600 to-steel-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
+                  <div className="w-16 h-16 bg-gradient-to-br from-steel-700 to-steel-800 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
                     <Briefcase className="w-8 h-8 text-white" />
                   </div>
                   
