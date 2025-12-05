@@ -25,10 +25,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#2F241F]">
       {/* Hero Section - Darker & Bolder */}
-      <section className="relative bg-gradient-to-br from-[#2F241F] via-[#3D3229] to-[#1A1D2E] text-white overflow-hidden">
+      <section className="relative bg-[#2F241F] text-white overflow-hidden">
         
         {/* Subtle accent elements */}
-        <div className="absolute inset-0 overflow-hidden opacity-20">
+        <div className="absolute inset-0 overflow-hidden opacity-10">
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#FFC425] rounded-full blur-[120px]"></div>
           <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#D4A849] rounded-full blur-[120px]"></div>
         </div>
