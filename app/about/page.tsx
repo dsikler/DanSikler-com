@@ -36,7 +36,7 @@ export default function About() {
                 {/* Image */}
                 <div className="relative w-80 h-80 md:w-96 md:h-96">
                   <img
-                    src="/dan-sikler-photo.jpg"
+                    src="/dan-sikler-hero-page.jpeg"
                     alt="Dan Sikler"
                     className="w-full h-full object-cover rounded-2xl border-4 border-white shadow-2xl"
                   />
