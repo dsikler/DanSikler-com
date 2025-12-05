@@ -1,9 +1,22 @@
-import { TrendingUp, Dumbbell, Heart, Calendar, ArrowRight } from 'lucide-react'
+import { TrendingUp, Dumbbell, Heart, Calendar, ArrowRight, Home } from 'lucide-react'
 import Link from 'next/link'
 
 export default function About() {
   return (
     <div className="bg-[#F5F1E8] min-h-screen">
+      {/* Navigation Header */}
+      <nav className="bg-[#F5F1E8] border-b border-[#E8DFD3] sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Link 
+            href="/" 
+            className="inline-flex items-center gap-2 text-[#4A3C2C] hover:text-[#FFC425] font-semibold transition-colors duration-300 group"
+          >
+            <Home className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+            <span>Back to Home</span>
+          </Link>
+        </div>
+      </nav>
+      
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Hero Section */}
         <section className="relative bg-[#F5F1E8] overflow-hidden mb-16">
