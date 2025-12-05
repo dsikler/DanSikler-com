@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#2F241F]">
       {/* Hero Section - Darker & Bolder */}
-      <section className="relative bg-[#2F241F] text-white overflow-hidden">
+      <section className="relative bg-[#F5F1E8] overflow-hidden">
         
         {/* Subtle accent elements */}
         <div className="absolute inset-0 overflow-hidden opacity-10">
@@ -40,7 +40,7 @@ export default function Home() {
             <div className="space-y-8">
               
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#4A3C2C] border border-[#6B5D52]/30 rounded-full text-[#FFC425] text-sm font-medium">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-[#E8DFD3] rounded-full text-[#4A3C2C] text-sm font-medium">
                 <span className="w-2 h-2 bg-[#FFC425] rounded-full animate-pulse"></span>
                 <span>Building ventures across industries</span>
               </div>
@@ -53,7 +53,7 @@ export default function Home() {
               </div>
               
               {/* Description */}
-              <p className="text-lg text-[#E8DFD3] leading-relaxed max-w-xl">
+              <p className="text-lg text-[#4A3C2C] leading-relaxed max-w-xl">
                 Trust & Safety leader, AI specialist, real estate investor, and entrepreneur. 
                 Building ventures that create value across technology, property, and e-commerce.
               </p>
@@ -70,7 +70,7 @@ export default function Home() {
                 </a>
                 <a 
                   href="/resume" 
-                  className="px-8 py-4 bg-transparent border-2 border-[#6B5D52] hover:border-[#FFC425] text-[#F5F1E8] rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2"
+                  className="px-8 py-4 bg-transparent border-2 border-[#6B5D52] hover:border-[#FFC425] text-[#2F241F] rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <FileText className="w-5 h-5" />
                   View Resume
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
               
               {/* Info */}
-              <div className="flex items-center gap-6 text-sm text-[#E8DFD3] pt-4">
+              <div className="flex items-center gap-6 text-sm text-[#6B5D52] pt-4">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-[#FFC425] rounded-full animate-pulse"></div>
                   <span>Available for opportunities</span>
@@ -102,7 +102,7 @@ export default function Home() {
                   <img 
                     src="/dan-sikler-photo.jpg" 
                     alt="Dan Sikler" 
-                    className="w-full h-full object-cover rounded-2xl border-4 border-[#4A3C2C] shadow-2xl"
+                    className="w-full h-full object-cover rounded-2xl border-4 border-white shadow-2xl"
                   />
                   {/* Badge */}
                   <div className="absolute -bottom-4 -right-4 px-5 py-3 bg-[#FFC425] rounded-xl shadow-xl">
