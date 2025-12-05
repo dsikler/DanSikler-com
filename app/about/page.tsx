@@ -66,7 +66,7 @@ export default function About() {
             {/* Left Column - Text */}
             <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed">
               <p>
-                I'm a productivity geek who lives by the phrase 'What gets measured gets managed.' I track weekly tasks, daily habits, every penny I spend, calories consumed, and weights lifted. If there's a metric, I'm probably measuring it in a spreadsheet.
+                I'm a productivity geek who lives by the principle that if you cannot measure it, you cannot improve it. I track weekly tasks, daily habits, every penny I spend, calories consumed, and weights lifted. If there's a metric, I'm probably measuring it in a spreadsheet.
               </p>
               <p>
                 Improving and being great at everything I do is a genuine passion. I'm always optimizing, always iterating, always looking for that 1% improvement. Love a good productivity audiobook? I've got recommendations for days.
