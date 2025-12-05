@@ -47,7 +47,7 @@ export default function Home() {
               
               {/* Name */}
               <div>
-                <h1 className="text-6xl md:text-7xl font-bold text-[#FFC425] tracking-tight leading-none">
+                <h1 className="text-6xl md:text-7xl font-bold text-[#4A3C2C] tracking-tight leading-none">
                   Dan Sikler
                 </h1>
               </div>
@@ -182,21 +182,8 @@ export default function Home() {
                       Resume & Skills
                     </h3>
                     <p className="text-[#E8DFD3] leading-relaxed">
-                      Unlock peak performance: AI-powered trust & safety mastery in prompt engineering, vendor orchestration, and global-scale ops.
+                      Scaling Trust & Safety operations through expert AI training, prompt engineering, and vendor strategy.
                     </p>
-                  </div>
-                  
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      AI/ML
-                    </span>
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      Operations
-                    </span>
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      Leadership
-                    </span>
                   </div>
                   
                   {/* Link */}
@@ -222,16 +209,8 @@ export default function Home() {
                       Elevate Finance
                     </h3>
                     <p className="text-[#E8DFD3] leading-relaxed">
-                      Master your money: Intuitive budgeting app that expands horizons, slashes restrictions, and accelerates wealth-building wins.
+                      A smart budgeting tool designed to simplify tracking and build wealth without restricting your lifestyle.
                     </p>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      React
-                    </span>
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      FinTech
-                    </span>
                   </div>
                   <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>Try the App</span>
@@ -258,16 +237,8 @@ export default function Home() {
                       Elevate Asset Management
                     </h3>
                     <p className="text-[#E8DFD3] leading-relaxed">
-                      Dominate real estate: LLC powerhouse flipping, upgrading, renting, and scaling properties for unstoppable portfolio growth.
+                      Strategic real estate investment focused on flipping, modernizing, and managing properties for long-term growth.
                     </p>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      Real Estate
-                    </span>
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      Investment
-                    </span>
                   </div>
                   <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>View Portfolio</span>
@@ -294,16 +265,8 @@ export default function Home() {
                       Yak Brothers
                     </h3>
                     <p className="text-[#E8DFD3] leading-relaxed">
-                      Delight dogs daily: Ultra-premium, natural yak chews delivering epic endurance, nutrition, and non-stop tail-thrashing fun.
+                      Premium and all-natural yak chews providing a healthier, longer-lasting treat for happier dogs.
                     </p>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      E-commerce
-                    </span>
-                    <span className="px-3 py-1 bg-[#2F241F] border border-[#6B5D52]/20 text-[#FFC425] rounded-full text-xs font-medium">
-                      Pet Products
-                    </span>
                   </div>
                   <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>Learn More</span>
