@@ -23,43 +23,49 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
-        {/* Animated background elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-0 left-0 w-80 h-80 bg-steel-700/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-steel-800/5 rounded-full blur-3xl"></div>
+    <div className="min-h-screen bg-[#FFF5E6]">
+      {/* Hero Section - Warm & Organic */}
+      <section className="relative bg-gradient-to-br from-[#FFF5E6] via-[#FAF8F5] to-[#F0EBE3] overflow-hidden">
+        {/* Subtle organic background elements */}
+        <div className="absolute inset-0 overflow-hidden opacity-30">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#FFC425]/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#E8B84D]/10 rounded-full blur-3xl"></div>
         </div>
         
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 md:py-28">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Text content */}
-            <div className="text-center lg:text-left">
-              {/* Badge/Tag */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600/20 backdrop-blur-sm border border-emerald-500/30 rounded-full text-emerald-300 text-sm font-semibold mb-6">
-                <Sparkles className="w-4 h-4" />
+        <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 md:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            {/* Left: Content */}
+            <div className="space-y-8">
+              
+              {/* Subtle tag */}
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm border border-[#D4C4B0] rounded-full text-[#8B7355] text-sm font-medium">
+                <span className="w-2 h-2 bg-[#FFC425] rounded-full"></span>
                 <span>Building ventures across industries</span>
               </div>
               
-              {/* Name - Large and bold */}
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">
-                Dan Sikler
-              </h1>
+              {/* Name - warm and inviting */}
+              <div>
+                <h1 className="text-6xl md:text-7xl font-bold text-[#4A3C2C] mb-4 tracking-tight">
+                  Dan Sikler
+                </h1>
+                <p className="text-2xl text-[#8B7355] font-normal">
+                  From Code → Capital → Commerce
+                </p>
+              </div>
               
-              {/* Description */}
-              <p className="text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              {/* Description - comfortable reading */}
+              <p className="text-lg text-[#8B7355] leading-relaxed max-w-xl">
                 Trust & Safety leader, AI specialist, real estate investor, and entrepreneur. 
                 Building ventures that create value across technology, property, and e-commerce.
               </p>
               
-              {/* CTAs - Make About Me PROMINENT */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              {/* CTAs - muted and elegant */}
+              <div className="flex flex-col sm:flex-row gap-4">
                 <a 
                   href="/about" 
-                  className="group px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-200 flex items-center justify-center gap-3"
+                  className="group px-8 py-4 bg-[#FFC425] hover:bg-[#E8B84D] text-[#2F241F] rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
                 >
                   <User className="w-5 h-5" />
                   Learn More About Me
@@ -67,306 +73,296 @@ export default function Home() {
                 </a>
                 <a 
                   href="/resume" 
-                  className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white rounded-xl font-semibold text-lg hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2"
+                  className="px-8 py-4 bg-white hover:bg-[#FAF8F5] border-2 border-[#D4C4B0] text-[#4A3C2C] rounded-xl font-semibold transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <FileText className="w-5 h-5" />
                   View Resume
                 </a>
               </div>
               
-              {/* Quick stats */}
-              <div className="flex items-center gap-6 mt-10 text-sm justify-center lg:justify-start flex-wrap">
+              {/* Subtle info */}
+              <div className="flex items-center gap-6 text-sm text-[#A0917B] pt-4">
                 <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-slate-400">Available for opportunities</span>
+                  <div className="w-2 h-2 bg-[#FFC425] rounded-full"></div>
+                  <span>Open to opportunities</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4 text-slate-400" />
-                  <span className="text-slate-400">Wadsworth, OH</span>
+                  <MapPin className="w-4 h-4" />
+                  <span>Wadsworth, OH</span>
                 </div>
               </div>
+              
             </div>
             
-            {/* Right: Profile image with modern frame */}
+            {/* Right: Photo - organic framing */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
-                {/* Decorative elements */}
-                <div className="absolute -inset-4 bg-gradient-to-r from-emerald-600 to-steel-700 rounded-3xl blur-2xl opacity-20 animate-pulse"></div>
+                {/* Soft glow instead of harsh gradient */}
+                <div className="absolute -inset-8 bg-gradient-to-br from-[#FFC425]/20 to-[#E8B84D]/20 rounded-[2rem] blur-2xl"></div>
                 
-                {/* Image container */}
+                {/* Image with soft border */}
                 <div className="relative w-80 h-80 md:w-96 md:h-96">
-                  <div className="absolute inset-0 bg-gradient-to-br from-emerald-700 to-steel-800 rounded-3xl"></div>
                   <img 
                     src="/dan-sikler-photo.jpg" 
                     alt="Dan Sikler" 
-                    className="relative w-full h-full object-cover rounded-3xl border-4 border-white/20 shadow-2xl"
+                    className="w-full h-full object-cover rounded-2xl border-4 border-white/80 shadow-lg"
                   />
-                  {/* Floating badge */}
-                  <div className="absolute -bottom-4 -right-4 px-6 py-3 bg-white rounded-2xl shadow-xl flex items-center gap-3">
-                    <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                    <span className="font-bold text-gray-900">Open to Connect</span>
+                  {/* Subtle badge */}
+                  <div className="absolute -bottom-4 -right-4 px-5 py-3 bg-white/90 backdrop-blur-sm border border-[#D4C4B0] rounded-xl shadow-md">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-[#FFC425] rounded-full"></div>
+                      <span className="font-semibold text-[#4A3C2C]">Open to Connect</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
         
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ChevronDown className="w-8 h-8 text-white/50" />
+        {/* Soft scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2">
+          <ChevronDown className="w-6 h-6 text-[#A0917B] animate-bounce" />
         </div>
+        
       </section>
 
-      {/* Featured Section - Social Proof */}
-      <section className="py-12 bg-white border-y border-gray-200">
+      {/* Company Bar - Softer */}
+      <section className="py-8 bg-white border-y border-[#F0EBE3]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-wrap items-center justify-center gap-12 opacity-60">
-            <div className="flex items-center gap-3">
-              <Briefcase className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">Indeed • Glassdoor</span>
+          <div className="flex flex-wrap items-center justify-center gap-12 text-[#A0917B]">
+            <div className="flex items-center gap-2">
+              <Briefcase className="w-4 h-4" />
+              <span className="font-medium">Indeed • Glassdoor</span>
             </div>
-            <div className="flex items-center gap-3">
-              <GraduationCap className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">Kent State University</span>
+            <div className="flex items-center gap-2">
+              <GraduationCap className="w-4 h-4" />
+              <span className="font-medium">Kent State University</span>
             </div>
-            <div className="flex items-center gap-3">
-              <MapPin className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">Wadsworth, Ohio</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Award className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">10+ Years Experience</span>
+            <div className="flex items-center gap-2">
+              <Award className="w-4 h-4" />
+              <span className="font-medium">10+ Years Experience</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Ventures Section */}
-      <section className="py-20 bg-[#faf9f6]">
+      {/* Ventures Section - Warm Cards */}
+      <section className="py-24 bg-gradient-to-b from-[#FAF8F5] to-[#FFF5E6]">
         <div className="max-w-7xl mx-auto px-6">
+          
           {/* Section header */}
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-16 space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#4A3C2C]">
               What I'm Building
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Exploring ventures across multiple industries, each designed to solve real problems and create lasting value
+            <p className="text-xl text-[#8B7355] max-w-3xl mx-auto leading-relaxed">
+              Exploring ventures across multiple industries—each designed to solve real problems and create lasting value
             </p>
           </div>
           
-          {/* Venture cards grid */}
+          {/* Cards grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Card 1: Resume & Skills - PRIMARY FOCUS */}
-            <a href="/resume" className="group relative h-full flex">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-steel-600 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
-                {/* Gradient accent bar */}
-                <div className="h-2 bg-gradient-to-r from-steel-700 to-steel-600"></div>
+            
+            {/* Card 1: Resume - Warm design */}
+            <a href="/resume" className="group">
+              <div className="bg-white border-2 border-[#F0EBE3] hover:border-[#FFC425] rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg">
                 
-                {/* Content */}
-                <div className="p-8 flex flex-col flex-1">
-                  {/* Icon with animation */}
-                  <div className="w-16 h-16 bg-gradient-to-br from-steel-600 to-steel-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
-                    <Briefcase className="w-8 h-8 text-white" />
+                {/* Accent bar - gold */}
+                <div className="h-1.5 bg-gradient-to-r from-[#FFC425] to-[#E8B84D]"></div>
+                
+                <div className="p-8 space-y-6">
+                  
+                  {/* Icon - warm colors */}
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#FFC425]/20 to-[#E8B84D]/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <Briefcase className="w-7 h-7 text-[#FFC425]" />
                   </div>
                   
-                  {/* Title */}
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-steel-700 transition-colors">
-                    Resume & Skills
-                  </h3>
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-[#4A3C2C] group-hover:text-[#FFC425] transition-colors">
+                      Resume & Skills
+                    </h3>
+                    <p className="text-[#8B7355] leading-relaxed">
+                      Unlock peak performance: AI-powered trust & safety mastery in prompt engineering, vendor orchestration, and global-scale ops.
+                    </p>
+                  </div>
                   
-                  {/* Description */}
-                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Unlock peak performance: AI-powered trust & safety mastery in prompt engineering, vendor orchestration, and global-scale ops.
-                  </p>
-                  
-                  {/* CTA */}
-                  <div className="flex items-center gap-2 text-steel-700 font-semibold group-hover:gap-3 transition-all mt-auto">
+                  {/* Link */}
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
                     <span>View Experience</span>
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
+                  
                 </div>
-                
-                {/* Hover effect overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-steel-600/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
               </div>
             </a>
             
-            {/* Card 2: Elevate Finance (Ledger) */}
-            <a href="/budget-app" className="group relative h-full flex">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-emerald-600 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
-                <div className="h-2 bg-gradient-to-r from-emerald-700 to-emerald-600"></div>
-                
-                <div className="p-8 flex flex-col flex-1">
-                  <div className="w-16 h-16 bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
-                    <TrendingUp className="w-8 h-8 text-white" />
+            {/* Card 2: Elevate Finance */}
+            <a href="/budget-app" className="group">
+              <div className="bg-white border-2 border-[#F0EBE3] hover:border-[#FFC425] rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <div className="h-1.5 bg-gradient-to-r from-[#FFC425] to-[#E8B84D]"></div>
+                <div className="p-8 space-y-6">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#FFC425]/20 to-[#E8B84D]/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <TrendingUp className="w-7 h-7 text-[#FFC425]" />
                   </div>
-                  
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-emerald-700 transition-colors">
-                    Elevate Finance
-                  </h3>
-                  
-                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Master your money: Intuitive budgeting app that expands horizons, slashes restrictions, and accelerates wealth-building wins.
-                  </p>
-                  
-                  <div className="flex items-center gap-2 text-emerald-700 font-semibold group-hover:gap-3 transition-all mt-auto">
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-[#4A3C2C] group-hover:text-[#FFC425] transition-colors">
+                      Elevate Finance
+                    </h3>
+                    <p className="text-[#8B7355] leading-relaxed">
+                      Master your money: Intuitive budgeting app that expands horizons, slashes restrictions, and accelerates wealth-building wins.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
                     <span>Try the App</span>
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
-                
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-600/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
               </div>
             </a>
             
             {/* Card 3: Elevate Asset Management */}
-            <a href="/elevate" className="group relative h-full flex">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-amber-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
-                <div className="h-2 bg-gradient-to-r from-amber-600 to-amber-400"></div>
-                
-                <div className="p-8 flex flex-col flex-1">
-                  <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
-                    <Building2 className="w-8 h-8 text-white" />
-                  </div>
-                  
+            <a href="/elevate" className="group relative">
+              <div className="bg-white border-2 border-[#F0EBE3] hover:border-[#FFC425] rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <div className="h-1.5 bg-gradient-to-r from-[#FFC425] to-[#E8B84D]"></div>
+                <div className="p-8 space-y-6">
                   {/* Coming Soon badge */}
-                  <div className="absolute top-6 right-6 px-3 py-1 bg-amber-500 text-white rounded-full text-xs font-bold shadow-lg">
+                  <div className="absolute top-6 right-6 px-3 py-1 bg-[#FFC425] text-[#2F241F] rounded-full text-xs font-bold shadow-md">
                     Coming Soon
                   </div>
-                  
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-amber-600 transition-colors">
-                    Elevate Asset Management
-                  </h3>
-                  
-                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Dominate real estate: LLC powerhouse flipping, upgrading, renting, and scaling properties for unstoppable portfolio growth.
-                  </p>
-                  
-                  <div className="flex items-center gap-2 text-amber-600 font-semibold group-hover:gap-3 transition-all mt-auto">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#FFC425]/20 to-[#E8B84D]/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <Building2 className="w-7 h-7 text-[#FFC425]" />
+                  </div>
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-[#4A3C2C] group-hover:text-[#FFC425] transition-colors">
+                      Elevate Asset Management
+                    </h3>
+                    <p className="text-[#8B7355] leading-relaxed">
+                      Dominate real estate: LLC powerhouse flipping, upgrading, renting, and scaling properties for unstoppable portfolio growth.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
                     <span>View Portfolio</span>
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
-                
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
               </div>
             </a>
             
-            {/* Card 4: Yak Bones */}
-            <a href="/yak-bones" className="group relative h-full flex">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-green-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col w-full">
-                <div className="h-2 bg-gradient-to-r from-green-600 to-green-400"></div>
-                
-                <div className="p-8 flex flex-col flex-1">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
-                    <Heart className="w-8 h-8 text-white" />
-                  </div>
-                  
+            {/* Card 4: Yak Brothers */}
+            <a href="/yak-bones" className="group relative">
+              <div className="bg-white border-2 border-[#F0EBE3] hover:border-[#FFC425] rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-lg">
+                <div className="h-1.5 bg-gradient-to-r from-[#FFC425] to-[#E8B84D]"></div>
+                <div className="p-8 space-y-6">
                   {/* Website in Progress badge */}
-                  <div className="absolute top-6 right-6 px-3 py-1 bg-green-500 text-white rounded-full text-xs font-bold shadow-lg">
+                  <div className="absolute top-6 right-6 px-3 py-1 bg-[#FFC425] text-[#2F241F] rounded-full text-xs font-bold shadow-md">
                     Website in Progress
                   </div>
-                  
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
-                    Yak Brothers
-                  </h3>
-                  
-                  <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Delight dogs daily: Ultra-premium, natural yak chews delivering epic endurance, nutrition, and non-stop tail-thrashing fun.
-                  </p>
-                  
-                  <div className="flex items-center gap-2 text-green-600 font-semibold group-hover:gap-3 transition-all mt-auto">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#FFC425]/20 to-[#E8B84D]/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <Heart className="w-7 h-7 text-[#FFC425]" />
+                  </div>
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-bold text-[#4A3C2C] group-hover:text-[#FFC425] transition-colors">
+                      Yak Brothers
+                    </h3>
+                    <p className="text-[#8B7355] leading-relaxed">
+                      Delight dogs daily: Ultra-premium, natural yak chews delivering epic endurance, nutrition, and non-stop tail-thrashing fun.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
                     <span>Learn More</span>
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
-                
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
               </div>
             </a>
+            
           </div>
         </div>
       </section>
 
-      {/* Skills Snapshot Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-slate-50">
+      {/* Skills Section - Muted */}
+      <section className="py-24 bg-[#FAF8F5]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <div className="text-center mb-16 space-y-4">
+            <h2 className="text-4xl font-bold text-[#4A3C2C]">
               Core Competencies
             </h2>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-[#8B7355]">
               Cross-functional expertise across technology, operations, and business
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                <Cpu className="w-6 h-6 text-purple-600" />
+            <div className="bg-white border border-[#F0EBE3] rounded-xl p-6 text-center hover:border-[#FFC425] transition-colors">
+              <div className="w-12 h-12 bg-[#FFF5E6] rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Cpu className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-1">AI & ML</h3>
-              <p className="text-sm text-gray-600">Prompt Engineering, LLMs</p>
+              <h3 className="font-bold text-[#4A3C2C] mb-2">AI & ML</h3>
+              <p className="text-sm text-[#8B7355]">Prompt Engineering, LLMs</p>
             </div>
             
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-steel-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                <Code className="w-6 h-6 text-steel-700" />
+            <div className="bg-white border border-[#F0EBE3] rounded-xl p-6 text-center hover:border-[#FFC425] transition-colors">
+              <div className="w-12 h-12 bg-[#FFF5E6] rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Code className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-1">Development</h3>
-              <p className="text-sm text-gray-600">React, SQL, JavaScript</p>
+              <h3 className="font-bold text-[#4A3C2C] mb-2">Development</h3>
+              <p className="text-sm text-[#8B7355]">React, SQL, JavaScript</p>
             </div>
             
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                <Users className="w-6 h-6 text-green-600" />
+            <div className="bg-white border border-[#F0EBE3] rounded-xl p-6 text-center hover:border-[#FFC425] transition-colors">
+              <div className="w-12 h-12 bg-[#FFF5E6] rounded-xl flex items-center justify-center mx-auto mb-4">
+                <Users className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-1">Operations</h3>
-              <p className="text-sm text-gray-600">Team Leadership, QA</p>
+              <h3 className="font-bold text-[#4A3C2C] mb-2">Operations</h3>
+              <p className="text-sm text-[#8B7355]">Team Leadership, QA</p>
             </div>
             
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-                <BarChart3 className="w-6 h-6 text-amber-600" />
+            <div className="bg-white border border-[#F0EBE3] rounded-xl p-6 text-center hover:border-[#FFC425] transition-colors">
+              <div className="w-12 h-12 bg-[#FFF5E6] rounded-xl flex items-center justify-center mx-auto mb-4">
+                <BarChart3 className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-1">Business</h3>
-              <p className="text-sm text-gray-600">Finance, Investment, Strategy</p>
+              <h3 className="font-bold text-[#4A3C2C] mb-2">Business</h3>
+              <p className="text-sm text-[#8B7355]">Finance, Investment, Strategy</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Let's Build Something Together
-          </h2>
-          <p className="text-xl text-slate-300 mb-10 leading-relaxed">
-            Open to opportunities in AI/ML, operations leadership, and venture collaboration. 
-            Whether you're hiring, investing, or just want to connect, I'd love to hear from you.
-          </p>
+      {/* CTA Section - Warm & Inviting */}
+      <section className="py-24 bg-gradient-to-br from-[#4A3C2C] to-[#2F241F] text-white">
+        <div className="max-w-4xl mx-auto px-6 text-center space-y-10">
+          <div className="space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold">
+              Let's Build Something Together
+            </h2>
+            <p className="text-xl text-[#D4C4B0] leading-relaxed">
+              Open to opportunities in AI/ML, operations leadership, and venture collaboration. 
+              Whether you're hiring, investing, or just want to connect—I'd love to hear from you.
+            </p>
+          </div>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:sikler.dan@gmail.com" className="px-10 py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center justify-center gap-2">
+            <a href="mailto:sikler.dan@gmail.com" className="px-10 py-4 bg-[#FFC425] hover:bg-[#E8B84D] text-[#2F241F] rounded-xl font-bold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 shadow-lg">
               <Mail className="w-5 h-5" />
               Get In Touch
             </a>
-            <a href="/Dan_Sikler_Resume.pdf" download="Dan_Sikler_Resume.pdf" className="px-10 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white rounded-xl font-semibold text-lg hover:scale-105 transition-all flex items-center justify-center gap-2">
+            <a href="/Dan_Sikler_Resume.pdf" download="Dan_Sikler_Resume.pdf" className="px-10 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white/30 text-white rounded-xl font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
               <Download className="w-5 h-5" />
               Download Resume
             </a>
           </div>
           
           {/* Social links */}
-          <div className="flex items-center justify-center gap-6 mt-12 pt-8 border-t border-white/20">
-            <a href="https://linkedin.com/in/danielsikler" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center transition-all hover:scale-110">
+          <div className="flex items-center justify-center gap-4 pt-8 border-t border-white/20">
+            <a href="https://linkedin.com/in/danielsikler" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110">
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="https://github.com/dansikler" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center transition-all hover:scale-110">
+            <a href="https://github.com/dansikler" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110">
               <Github className="w-5 h-5" />
             </a>
-            <a href="mailto:sikler.dan@gmail.com" className="w-12 h-12 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center transition-all hover:scale-110">
+            <a href="mailto:sikler.dan@gmail.com" className="w-12 h-12 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110">
               <Mail className="w-5 h-5" />
             </a>
           </div>
