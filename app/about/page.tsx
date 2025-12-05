@@ -77,10 +77,10 @@ export default function About() {
             <div className="bg-[#FFC425]/10 border-l-4 border-[#FFC425] p-6 rounded-lg">
               <TrendingUp className="w-8 h-8 text-[#FFC425] mb-3" />
               <p className="text-xl font-semibold text-[#4A3C2C] mb-2">
-                "What gets measured gets managed"
+                "If you cannot measure it, you cannot improve it."
               </p>
               <p className="text-sm text-[#6B5D52] italic">
-                A Dan Sikler mantra
+                — Lord Kelvin
               </p>
             </div>
           </div>
