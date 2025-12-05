@@ -303,32 +303,32 @@ export default function Home() {
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Cpu className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">AI & ML</h3>
-              <p className="text-sm text-[#6B5D52]">Prompt Engineering, LLMs</p>
-            </div>
-            
-            <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
-              <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Code className="w-6 h-6 text-[#FFC425]" />
-              </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">Development</h3>
-              <p className="text-sm text-[#6B5D52]">React, SQL, JavaScript</p>
+              <h3 className="font-bold text-[#2F241F] mb-2">AI Strategy & Model Training</h3>
+              <p className="text-sm text-[#6B5D52]">Optimizing LLMs through advanced prompt engineering, golden dataset curation, and rigorous SQL-based performance auditing.</p>
             </div>
             
             <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">Operations</h3>
-              <p className="text-sm text-[#6B5D52]">Team Leadership, QA</p>
+              <h3 className="font-bold text-[#2F241F] mb-2">Trust & Safety Operations</h3>
+              <p className="text-sm text-[#6B5D52]">Safeguarding platforms via global content moderation, high-stakes escalation management, and strategic policy enforcement.</p>
             </div>
             
             <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <BarChart3 className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">Business</h3>
-              <p className="text-sm text-[#6B5D52]">Finance, Investment, Strategy</p>
+              <h3 className="font-bold text-[#2F241F] mb-2">Global Program Management</h3>
+              <p className="text-sm text-[#6B5D52]">Scaling operational efficiency through vendor leadership, cross-functional migrations, and standardized QA frameworks.</p>
+            </div>
+            
+            <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
+                <TrendingUp className="w-6 h-6 text-[#FFC425]" />
+              </div>
+              <h3 className="font-bold text-[#2F241F] mb-2">Data Analytics & Strategic Investment</h3>
+              <p className="text-sm text-[#6B5D52]">Leveraging SQL-driven insights and financial expertise to automate workflows, reduce manual overhead, and maximize asset performance.</p>
             </div>
           </div>
         </div>
