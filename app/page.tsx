@@ -141,6 +141,10 @@ export default function Home() {
               <GraduationCap className="w-4 h-4 text-[#FFC425]" />
               <span className="font-medium">Kent State University</span>
             </div>
+            <div className="flex items-center gap-2">
+              <Award className="w-4 h-4 text-[#FFC425]" />
+              <span className="font-medium">10+ Years Experience</span>
+            </div>
           </div>
         </div>
       </section>
