@@ -220,115 +220,60 @@ export default function Resume() {
               Skills & Expertise
             </h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* AI & Data Tools */}
+            <div className="space-y-8">
+              {/* AI & LLM Operations */}
               <div>
-                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-4 flex items-center gap-2">
+                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-3 flex items-center gap-2">
+                  <Cpu className="text-[#FFC425]" size={20} />
+                  AI & LLM Operations
+                </h3>
+                <p className="text-[#4A3C2C] leading-relaxed">
+                  Prompt Engineering for LLMs, Golden Dataset Curation, Model Training & Calibration, AI Output Auditing, Oracle OCI AI Foundations (2025).
+                </p>
+              </div>
+
+              {/* Data Analytics & Visualization */}
+              <div>
+                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-3 flex items-center gap-2">
                   <Database className="text-[#FFC425]" size={20} />
-                  AI & Data Tools
+                  Data Analytics & Visualization
                 </h3>
-                <ul className="space-y-2 text-[#4A3C2C]">
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>SQL (advanced querying/dashboards)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>JavaScript (automation)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Tableau</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Excel (formulas/pivots/macros)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Prompt Engineering for LLMs</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Oracle OCI AI Foundations Associate (2025)</span>
-                  </li>
-                </ul>
+                <p className="text-[#4A3C2C] leading-relaxed">
+                  SQL (Advanced Querying), Metabase, Superset, Tableau, RazorSQL, Excel (Financial Modeling & Analysis).
+                </p>
               </div>
 
-              {/* Platforms & Systems */}
+              {/* Development & Automation */}
               <div>
-                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-4 flex items-center gap-2">
-                  <TrendingUp className="text-[#FFC425]" size={20} />
-                  Platforms & Systems
+                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-3 flex items-center gap-2">
+                  <Code className="text-[#FFC425]" size={20} />
+                  Development & Automation
                 </h3>
-                <ul className="space-y-2 text-[#4A3C2C]">
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Retool, Jira, Salesforce</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Lessonly, Cursor, Guru</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Google Workspace</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Superset, Metabase, RazorSQL</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#FFC425] mr-2">•</span>
-                    <span>Zoom, Slack</span>
-                  </li>
-                </ul>
+                <p className="text-[#4A3C2C] leading-relaxed">
+                  Cursor (AI-Assisted Coding), Retool (Internal Tooling & Workflows), JavaScript (Scripting & Automation).
+                </p>
               </div>
 
-              {/* Methodologies */}
-              <div className="md:col-span-2">
-                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-4 flex items-center gap-2">
-                  <BarChart3 className="text-[#FFC425]" size={20} />
-                  Methodologies
+              {/* Enterprise Platforms */}
+              <div>
+                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-3 flex items-center gap-2">
+                  <TrendingUp className="text-[#FFC425]" size={20} />
+                  Enterprise Platforms
                 </h3>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <ul className="space-y-2 text-[#4A3C2C]">
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>Agile/Scrum</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>Root Cause Analysis</span>
-                    </li>
-                  </ul>
-                  <ul className="space-y-2 text-[#4A3C2C]">
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>A/B Testing</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>User Acceptance Testing</span>
-                    </li>
-                  </ul>
-                  <ul className="space-y-2 text-[#4A3C2C]">
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>QA Frameworks</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>Vendor Management</span>
-                    </li>
-                  </ul>
-                  <ul className="space-y-2 text-[#4A3C2C]">
-                    <li className="flex items-start">
-                      <span className="text-[#FFC425] mr-2">•</span>
-                      <span>Escalation Resolution</span>
-                    </li>
-                  </ul>
-                </div>
+                <p className="text-[#4A3C2C] leading-relaxed">
+                  Salesforce (CRM), Jira (Project Tracking), Lessonly & Guru (Knowledge Management), Google Workspace, Slack/Zoom.
+                </p>
+              </div>
+
+              {/* Operational Methodologies */}
+              <div>
+                <h3 className="text-lg font-semibold text-[#4A3C2C] mb-3 flex items-center gap-2">
+                  <BarChart3 className="text-[#FFC425]" size={20} />
+                  Operational Methodologies
+                </h3>
+                <p className="text-[#4A3C2C] leading-relaxed">
+                  Global Vendor Management, Agile/Scrum, User Acceptance Testing (UAT), QA Framework Design, Root Cause Analysis, A/B Testing, Escalation Resolution.
+                </p>
               </div>
             </div>
           </div>
