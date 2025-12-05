@@ -40,13 +40,6 @@ export default function About() {
                     alt="Dan Sikler"
                     className="w-full h-full object-cover rounded-2xl border-4 border-white shadow-2xl"
                   />
-                  {/* Badge */}
-                  <div className="absolute -bottom-4 -right-4 px-5 py-3 bg-[#FFC425] rounded-xl shadow-xl">
-                    <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-[#2F241F] rounded-full"></div>
-                      <span className="font-bold text-[#2F241F]">Open to Connect</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
