@@ -1,6 +1,6 @@
 'use client'
 
-import { Download, FileText, Briefcase, GraduationCap, Award, Code, Database, TrendingUp, Users, BarChart3 } from 'lucide-react'
+import { Download, FileText, Briefcase, GraduationCap, Award, Code, Database, TrendingUp, Users, BarChart3, Cpu } from 'lucide-react'
 
 export default function Resume() {
   return (
