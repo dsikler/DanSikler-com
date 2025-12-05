@@ -46,7 +46,7 @@ export default function Home() {
               </div>
               
               {/* Name */}
-              <div>
+    <div>
                 <h1 className="text-6xl md:text-7xl font-bold text-[#4A3C2C] tracking-tight leading-none">
                   Dan Sikler
                 </h1>
@@ -225,14 +225,10 @@ export default function Home() {
             </a>
             
             {/* Card 3: Elevate Asset Management */}
-            <a href="/elevate" className="group relative h-full flex">
+            <a href="https://elevate-asset-management.netlify.app/" target="_blank" rel="noopener noreferrer" className="group h-full flex">
               <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
                 <div className="p-8 space-y-6 flex flex-col flex-1">
-                  {/* Coming Soon badge */}
-                  <div className="absolute top-6 right-6 px-3 py-1 bg-[#FFC425] text-[#2F241F] rounded-full text-xs font-bold shadow-md">
-                    Coming Soon
-                  </div>
                   <div className="w-14 h-14 bg-[#FFC425]/10 rounded-lg flex items-center justify-center group-hover:bg-[#FFC425]/20 transition-colors">
                     <Building2 className="w-7 h-7 text-[#FFC425]" />
                   </div>
