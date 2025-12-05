@@ -201,7 +201,7 @@ export default function Home() {
             </a>
             
             {/* Card 2: Elevate Finance */}
-            <a href="/budget-app" className="group h-full flex">
+            <a href="https://elevate-ledger.netlify.app/" target="_blank" rel="noopener noreferrer" className="group h-full flex">
               <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
                 <div className="p-8 space-y-6 flex flex-col flex-1">
