@@ -177,7 +177,7 @@ export default function Home() {
                   
                   {/* Description */}
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Trust & Safety leader with expertise in AI training, prompt engineering, and operations at scale
+                    Unlock peak performance: AI-powered trust & safety mastery in prompt engineering, vendor orchestration, and global-scale ops.
                   </p>
                   
                   {/* CTA */}
@@ -207,7 +207,7 @@ export default function Home() {
                   </h3>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Smart budgeting tool that makes tracking finances simple, helping you save more without feeling restricted
+                    Master your money: Intuitive budgeting app that expands horizons, slashes restrictions, and accelerates wealth-building wins.
                   </p>
                   
                   <div className="flex items-center gap-2 text-emerald-700 font-semibold group-hover:gap-3 transition-all mt-auto">
@@ -230,12 +230,17 @@ export default function Home() {
                     <Building2 className="w-8 h-8 text-white" />
                   </div>
                   
+                  {/* Coming Soon badge */}
+                  <div className="absolute top-6 right-6 px-3 py-1 bg-amber-500 text-white rounded-full text-xs font-bold shadow-lg">
+                    Coming Soon
+                  </div>
+                  
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-amber-600 transition-colors">
                     Elevate Asset Management
                   </h3>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Strategic real estate investment through property flips and rental portfolio building wealth through property
+                    Dominate real estate: LLC powerhouse flipping, upgrading, renting, and scaling properties for unstoppable portfolio growth.
                   </p>
                   
                   <div className="flex items-center gap-2 text-amber-600 font-semibold group-hover:gap-3 transition-all mt-auto">
@@ -258,17 +263,17 @@ export default function Home() {
                     <Heart className="w-8 h-8 text-white" />
                   </div>
                   
-                  {/* Coming Soon badge */}
+                  {/* Website in Progress badge */}
                   <div className="absolute top-6 right-6 px-3 py-1 bg-green-500 text-white rounded-full text-xs font-bold shadow-lg">
-                    Coming Soon
+                    Website in Progress
                   </div>
                   
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
-                    Yak Bones
+                    Yak Brothers
                   </h3>
                   
                   <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-                    Premium, all-natural yak chews for dogs, healthier treats that last longer and make tails wag
+                    Delight dogs daily: Ultra-premium, natural yak chews delivering epic endurance, nutrition, and non-stop tail-thrashing fun.
                   </p>
                   
                   <div className="flex items-center gap-2 text-green-600 font-semibold group-hover:gap-3 transition-all mt-auto">
