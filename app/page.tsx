@@ -46,17 +46,10 @@ export default function Home() {
               </div>
               
               {/* Name */}
-              <div className="space-y-4">
-                <h1 className="text-6xl md:text-7xl font-bold text-[#F5F1E8] tracking-tight leading-none">
+              <div>
+                <h1 className="text-6xl md:text-7xl font-bold text-[#FFC425] tracking-tight leading-none">
                   Dan Sikler
                 </h1>
-                <div className="flex items-center gap-3 text-2xl md:text-3xl font-medium">
-                  <span className="text-[#FFC425]">Code</span>
-                  <span className="text-[#6B5D52]">→</span>
-                  <span className="text-[#FFC425]">Capital</span>
-                  <span className="text-[#6B5D52]">→</span>
-                  <span className="text-[#FFC425]">Commerce</span>
-                </div>
               </div>
               
               {/* Description */}
@@ -170,13 +163,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
             {/* Card 1: Resume */}
-            <a href="/resume" className="group">
-              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10">
+            <a href="/resume" className="group h-full flex">
+              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 
                 {/* Gold accent */}
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
                 
-                <div className="p-8 space-y-6">
+                <div className="p-8 space-y-6 flex flex-col flex-1">
                   
                   {/* Icon */}
                   <div className="w-14 h-14 bg-[#FFC425]/10 rounded-lg flex items-center justify-center group-hover:bg-[#FFC425]/20 transition-colors">
@@ -184,7 +177,7 @@ export default function Home() {
                   </div>
                   
                   {/* Content */}
-                  <div className="space-y-3">
+                  <div className="space-y-3 flex-1">
                     <h3 className="text-2xl font-bold text-[#F5F1E8] group-hover:text-[#FFC425] transition-colors">
                       Resume & Skills
                     </h3>
@@ -207,7 +200,7 @@ export default function Home() {
                   </div>
                   
                   {/* Link */}
-                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>View Experience</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -217,14 +210,14 @@ export default function Home() {
             </a>
             
             {/* Card 2: Elevate Finance */}
-            <a href="/budget-app" className="group">
-              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10">
+            <a href="/budget-app" className="group h-full flex">
+              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
-                <div className="p-8 space-y-6">
+                <div className="p-8 space-y-6 flex flex-col flex-1">
                   <div className="w-14 h-14 bg-[#FFC425]/10 rounded-lg flex items-center justify-center group-hover:bg-[#FFC425]/20 transition-colors">
                     <TrendingUp className="w-7 h-7 text-[#FFC425]" />
                   </div>
-                  <div className="space-y-3">
+                  <div className="space-y-3 flex-1">
                     <h3 className="text-2xl font-bold text-[#F5F1E8] group-hover:text-[#FFC425] transition-colors">
                       Elevate Finance
                     </h3>
@@ -240,7 +233,7 @@ export default function Home() {
                       FinTech
                     </span>
                   </div>
-                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>Try the App</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -249,10 +242,10 @@ export default function Home() {
             </a>
             
             {/* Card 3: Elevate Asset Management */}
-            <a href="/elevate" className="group relative">
-              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10">
+            <a href="/elevate" className="group relative h-full flex">
+              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
-                <div className="p-8 space-y-6">
+                <div className="p-8 space-y-6 flex flex-col flex-1">
                   {/* Coming Soon badge */}
                   <div className="absolute top-6 right-6 px-3 py-1 bg-[#FFC425] text-[#2F241F] rounded-full text-xs font-bold shadow-md">
                     Coming Soon
@@ -260,7 +253,7 @@ export default function Home() {
                   <div className="w-14 h-14 bg-[#FFC425]/10 rounded-lg flex items-center justify-center group-hover:bg-[#FFC425]/20 transition-colors">
                     <Building2 className="w-7 h-7 text-[#FFC425]" />
                   </div>
-                  <div className="space-y-3">
+                  <div className="space-y-3 flex-1">
                     <h3 className="text-2xl font-bold text-[#F5F1E8] group-hover:text-[#FFC425] transition-colors">
                       Elevate Asset Management
                     </h3>
@@ -276,7 +269,7 @@ export default function Home() {
                       Investment
                     </span>
                   </div>
-                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>View Portfolio</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -285,10 +278,10 @@ export default function Home() {
             </a>
             
             {/* Card 4: Yak Brothers */}
-            <a href="/yak-bones" className="group relative">
-              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10">
+            <a href="/yak-bones" className="group relative h-full flex">
+              <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
-                <div className="p-8 space-y-6">
+                <div className="p-8 space-y-6 flex flex-col flex-1">
                   {/* Website in Progress badge */}
                   <div className="absolute top-6 right-6 px-3 py-1 bg-[#FFC425] text-[#2F241F] rounded-full text-xs font-bold shadow-md">
                     Website in Progress
@@ -296,7 +289,7 @@ export default function Home() {
                   <div className="w-14 h-14 bg-[#FFC425]/10 rounded-lg flex items-center justify-center group-hover:bg-[#FFC425]/20 transition-colors">
                     <Heart className="w-7 h-7 text-[#FFC425]" />
                   </div>
-                  <div className="space-y-3">
+                  <div className="space-y-3 flex-1">
                     <h3 className="text-2xl font-bold text-[#F5F1E8] group-hover:text-[#FFC425] transition-colors">
                       Yak Brothers
                     </h3>
@@ -312,7 +305,7 @@ export default function Home() {
                       Pet Products
                     </span>
                   </div>
-                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all">
+                  <div className="flex items-center gap-2 text-[#FFC425] font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
                     <span>Learn More</span>
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
