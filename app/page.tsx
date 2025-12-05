@@ -253,7 +253,7 @@ export default function Home() {
             </a>
             
             {/* Card 4: Yak Brothers */}
-            <a href="/yak-bones" className="group relative h-full flex">
+            <a href="https://yak-brothers.netlify.app/" target="_blank" rel="noopener noreferrer" className="group relative h-full flex">
               <div className="bg-[#4A3C2C] border border-[#6B5D52]/30 hover:border-[#FFC425] rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#FFC425]/10 flex flex-col w-full">
                 <div className="h-1 bg-gradient-to-r from-[#FFC425] to-[#D4A849]"></div>
                 <div className="p-8 space-y-6 flex flex-col flex-1">
