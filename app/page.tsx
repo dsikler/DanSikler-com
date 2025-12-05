@@ -345,8 +345,8 @@ export default function Home() {
               Let's Build Something Together
             </h2>
             <p className="text-xl text-[#E8DFD3] leading-relaxed">
-              Open to opportunities in AI/ML, operations leadership, and venture collaboration. 
-              Whether you're hiring, investing, or just want to connect—I'd love to hear from you.
+              Open to opportunities in AI, ML, program management, operations leadership, and venture collaboration. 
+              Whether you are hiring, investing, or just want to connect, I would love to hear from you.
             </p>
           </div>
           
