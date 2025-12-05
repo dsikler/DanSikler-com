@@ -39,6 +39,8 @@ export default function About() {
                     src="/dan-sikler-photo.jpg"
                     alt="Dan Sikler"
                     className="w-full h-full object-cover rounded-2xl border-4 border-white shadow-2xl"
+                    loading="eager"
+                    decoding="async"
                   />
                 </div>
               </div>
@@ -142,6 +144,8 @@ export default function About() {
                 src={photo.src}
                 alt={photo.alt}
                 className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-200 w-full h-full object-cover aspect-square"
+                loading="lazy"
+                decoding="async"
               />
             ))}
           </div>
