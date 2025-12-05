@@ -1,36 +1,40 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 :root {
-  /* San Diego Padres Inspired Color Palette */
-  --sand-cream: #FFF5E6;
-  --warm-white: #FAF8F5;
-  --soft-beige: #F0EBE3;
-  --light-brown: #D4C4B0;
-  --brown-tan: #8B7355;
-  --muted-brown: #A0917B;
-  --deep-brown: #4A3C2C;
-  --padres-brown: #2F241F;
+  /* Darker San Diego Padres Inspired Color Palette */
+  --dark-chocolate: #2F241F;
+  --rich-brown: #4A3C2C;
+  --warm-gray: #6B5D52;
   --padres-gold: #FFC425;
-  --muted-gold: #E8B84D;
-  --pinstripe-navy: #002D62;
+  --muted-gold: #D4A849;
+  --cream: #F5F1E8;
+  --deep-navy: #1A1D2E;
+  --warm-beige: #E8DFD3;
+  --soft-white: #FEFDFB;
+  --charcoal-brown: #3D3229;
   
   /* Text Colors */
-  --text-primary: var(--deep-brown);
-  --text-secondary: var(--brown-tan);
-  --text-muted: var(--muted-brown);
+  --text-primary-dark: var(--cream);
+  --text-secondary-dark: var(--warm-beige);
+  --text-muted-dark: var(--warm-gray);
+  --text-primary-light: var(--dark-chocolate);
+  --text-secondary-light: var(--rich-brown);
+  --text-muted-light: var(--warm-gray);
   
   /* Background Colors */
-  --bg-primary: var(--sand-cream);
-  --bg-secondary: var(--warm-white);
-  --bg-tertiary: var(--soft-beige);
+  --bg-primary-dark: var(--dark-chocolate);
+  --bg-secondary-dark: var(--charcoal-brown);
+  --bg-card-dark: var(--rich-brown);
+  --bg-primary-light: var(--cream);
+  --bg-card-light: #FFFFFF;
 }
 
 body {
-  color: var(--text-primary);
-  background: var(--bg-primary);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  color: var(--text-primary-light);
+  background: var(--bg-primary-light);
+  font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 400;
   line-height: 1.625;
   -webkit-font-smoothing: antialiased;
@@ -40,84 +44,5 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-  
-  /* Typography Hierarchy - Warm & Comfortable */
-  .site-logo {
-    @apply text-2xl md:text-3xl font-bold text-[#4A3C2C] tracking-tight;
-    font-family: 'Inter', system-ui, sans-serif;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-  }
-  
-  .nav-link {
-    font-family: 'Inter', system-ui, sans-serif;
-    font-weight: 500;
-    letter-spacing: -0.01em;
-  }
-  
-  .hero-headline {
-    @apply text-5xl md:text-6xl font-bold tracking-tight;
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.02em;
-    line-height: 1.2;
-  }
-  
-  .hero-tagline {
-    font-family: 'Inter', system-ui, sans-serif;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-  }
-  
-  .page-title {
-    @apply text-4xl font-bold text-[#4A3C2C] tracking-tight;
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.02em;
-    line-height: 1.25;
-  }
-  
-  .section-title {
-    @apply text-3xl font-bold text-[#4A3C2C] tracking-tight;
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.02em;
-    line-height: 1.3;
-  }
-  
-  .subsection-title {
-    @apply text-2xl font-semibold text-[#4A3C2C] tracking-tight;
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.015em;
-    line-height: 1.35;
-  }
-  
-  .card-title {
-    @apply text-xl font-semibold text-[#4A3C2C] tracking-tight;
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.01em;
-    line-height: 1.4;
-  }
-  
-  .body-text {
-    @apply text-base text-[#8B7355];
-    font-family: 'Inter', system-ui, sans-serif;
-    line-height: 1.75;
-    letter-spacing: -0.005em;
-  }
-  
-  .small-text {
-    @apply text-sm text-[#8B7355];
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.005em;
-  }
-  
-  .caption-text {
-    @apply text-xs text-[#A0917B];
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: 0;
-  }
-  
-  /* Financial numbers use monospace */
-  .financial {
-    @apply font-mono;
   }
 }

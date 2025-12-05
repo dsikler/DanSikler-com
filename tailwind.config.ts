@@ -9,45 +9,43 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // San Diego Padres Inspired Palette
-        sand: {
-          DEFAULT: '#FFF5E6',
-          light: '#FAF8F5',
+        // Darker San Diego Padres Inspired Palette
+        chocolate: {
+          dark: '#2F241F',
+          DEFAULT: '#2F241F',
         },
         brown: {
-          light: '#D4C4B0',
-          DEFAULT: '#8B7355',
-          medium: '#A0917B',
-          dark: '#4A3C2C',
-          deep: '#2F241F',
+          rich: '#4A3C2C',
+          DEFAULT: '#4A3C2C',
+          charcoal: '#3D3229',
         },
-        beige: {
-          light: '#F0EBE3',
-          DEFAULT: '#F0EBE3',
+        gray: {
+          warm: '#6B5D52',
+          DEFAULT: '#6B5D52',
         },
         gold: {
-          muted: '#E8B84D',
+          padres: '#FFC425',
+          muted: '#D4A849',
           DEFAULT: '#FFC425',
         },
-        navy: {
-          pinstripe: '#002D62',
+        cream: {
+          DEFAULT: '#F5F1E8',
         },
-        // Legacy support (will be replaced)
-        slate: {
-          50: '#FAF8F5',
-          100: '#F0EBE3',
-          200: '#D4C4B0',
-          300: '#A0917B',
-          400: '#8B7355',
-          500: '#8B7355',
-          600: '#4A3C2C',
-          700: '#4A3C2C',
-          800: '#2F241F',
-          900: '#2F241F',
+        navy: {
+          deep: '#1A1D2E',
+          DEFAULT: '#1A1D2E',
+        },
+        beige: {
+          warm: '#E8DFD3',
+          DEFAULT: '#E8DFD3',
+        },
+        white: {
+          soft: '#FEFDFB',
+          DEFAULT: '#FFFFFF',
         },
       },
       fontFamily: {
-        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'system-ui', 'sans-serif'],
+        sans: ['DM Sans', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
         mono: ['ui-monospace', 'SFMono-Regular', 'monospace'],
       },
       letterSpacing: {
