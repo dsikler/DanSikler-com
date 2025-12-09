@@ -1,13 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+@theme {
+  /* Master Brand Colors - these create bg-primary, text-primary, etc. */
+  --color-primary: #87A3DD;
+  --color-primary-dark: #5C66C0;
+  --color-primary-light: #A8C0F0;
+  --color-accent: #5C66C0;
+  --color-accent-dark: #4A5399;
+  --color-accent-light: #87A3DD;
+  --color-tan: #F0E6D9;
+  --color-tan-dark: #E5D4C0;
+  --color-tan-light: #F5EEE5;
+  --color-charcoal: #1e293b;
+}
+
 :root {
-  /* Master Brand Colors */
+  /* CSS Variables for direct use */
   --primary-blue: #87A3DD;
   --secondary-blue: #5C66C0;
   --tan: #F0E6D9;
