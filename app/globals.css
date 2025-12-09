@@ -42,11 +42,19 @@ body {
   
   /* Typography Hierarchy */
   .site-logo {
-    @apply text-2xl md:text-3xl font-bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
     color: var(--secondary-blue);
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
     letter-spacing: -0.02em;
+  }
+  
+  @media (min-width: 768px) {
+    .site-logo {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+    }
   }
   
   .nav-link {
@@ -55,8 +63,17 @@ body {
   }
   
   .hero-headline {
-    @apply text-5xl md:text-6xl font-bold;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
     font-family: 'Playfair Display', serif;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-headline {
+      font-size: 3.75rem;
+      line-height: 1;
+    }
   }
   
   .hero-tagline {
@@ -64,40 +81,55 @@ body {
   }
   
   .page-title {
-    @apply text-4xl font-bold;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
     color: var(--text-primary);
   }
   
   .section-title {
-    @apply text-3xl font-bold;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
     color: var(--text-primary);
   }
   
   .subsection-title {
-    @apply text-2xl font-semibold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
     color: var(--text-primary);
   }
   
   .card-title {
-    @apply text-xl font-semibold;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
     color: var(--text-primary);
   }
   
   .body-text {
-    @apply text-base text-slate-700 leading-relaxed;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(51 65 85);
+    line-height: 1.625;
   }
   
   .small-text {
-    @apply text-sm text-slate-600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(71 85 105);
   }
   
   .caption-text {
-    @apply text-xs text-slate-500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(100 116 139);
   }
   
   /* Financial numbers use monospace */
   .financial {
-    @apply font-mono;
+    font-family: ui-monospace, SFMono-Regular, monospace;
   }
   
   /* Animated gradient background */
