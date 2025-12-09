@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-800 text-white">
+    <footer className="bg-charcoal text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           {/* Brand */}
@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               <a
                 href="mailto:sikler.dan@gmail.com"
-                className="text-slate-400 hover:text-teal-400 transition-colors"
+                className="text-slate-400 hover:text-primary transition-colors"
                 aria-label="Email"
               >
                 <Mail size={24} />
@@ -29,7 +29,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/danielsikler/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-teal-400 transition-colors"
+                className="text-slate-400 hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
@@ -38,7 +38,7 @@ export default function Footer() {
                 href="https://github.com/dsikler"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-teal-400 transition-colors"
+                className="text-slate-400 hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
                 <Github size={24} />

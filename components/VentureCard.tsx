@@ -27,30 +27,30 @@ export default function VentureCard({
   const getHoverColor = () => {
     switch (ventureType) {
       case 'personal':
-        return 'hover:border-blue-900'
+        return 'hover:border-primary'
       case 'finance':
-        return 'hover:border-teal-600'
+        return 'hover:border-accent'
       case 'asset':
-        return 'hover:border-amber-600'
+        return 'hover:border-primary'
       case 'yak':
-        return 'hover:border-green-600'
+        return 'hover:border-accent'
       default:
-        return 'hover:border-teal-600'
+        return 'hover:border-accent'
     }
   }
 
   const getLinkColor = () => {
     switch (ventureType) {
       case 'personal':
-        return 'text-blue-900'
+        return 'text-primary'
       case 'finance':
-        return 'text-teal-600'
+        return 'text-accent'
       case 'asset':
-        return 'text-amber-600'
+        return 'text-primary'
       case 'yak':
-        return 'text-green-600'
+        return 'text-accent'
       default:
-        return 'text-teal-600'
+        return 'text-accent'
     }
   }
 
@@ -66,7 +66,7 @@ export default function VentureCard({
           <Icon className="text-white" size={24} />
         </div>
         {comingSoon && (
-          <span className="bg-yellow-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
+          <span className="bg-accent text-white px-3 py-1 rounded-full text-xs font-semibold">
             Coming Soon
           </span>
         )}

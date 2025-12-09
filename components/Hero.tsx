@@ -12,7 +12,7 @@ const ventures = [
     description: 'Personal finance management tool to track expenses and manage budgets effectively.',
     href: 'https://elevate-ledger.netlify.app/',
     icon: Calculator,
-    color: 'bg-teal-600',
+    color: 'bg-accent',
     ventureType: 'finance' as const,
   },
   {
@@ -20,7 +20,7 @@ const ventures = [
     description: 'Real estate investment and asset management company.',
     href: '/elevate',
     icon: Building2,
-    color: 'bg-amber-600',
+    color: 'bg-primary',
     ventureType: 'asset' as const,
   },
   {
@@ -28,7 +28,7 @@ const ventures = [
     description: 'E-commerce platform for premium dog chews and pet products.',
     href: 'https://yak-brothers.netlify.app/',
     icon: Bone,
-    color: 'bg-green-600',
+    color: 'bg-accent',
     comingSoon: false,
     ventureType: 'yak' as const,
   },
@@ -37,22 +37,22 @@ const ventures = [
     description: 'View my professional background, skills, and accomplishments.',
     href: '/resume',
     icon: Briefcase,
-    color: 'bg-blue-900',
+    color: 'bg-primary',
     ventureType: 'personal' as const,
   },
 ]
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-slate-900">
+    <div className="relative overflow-hidden bg-charcoal">
       {/* Interactive Background */}
       <InteractiveBackground />
       
       {/* Gradient overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-900/60 via-blue-900/40 to-slate-900/70 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-b from-accent/60 via-accent/40 to-charcoal/70 z-0" />
       
       {/* Additional subtle overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-br from-teal-600/10 via-transparent to-amber-600/10 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/10 z-0" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-16 lg:pt-20">
@@ -87,7 +87,7 @@ export default function Hero() {
           >
             <Link
               href="/about"
-              className="inline-flex items-center gap-2 bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-teal-50 hover:scale-105 transition-all shadow-xl hover:shadow-2xl"
+              className="inline-flex items-center gap-2 bg-white text-accent px-8 py-4 rounded-lg font-semibold hover:bg-tan hover:scale-105 transition-all shadow-xl hover:shadow-2xl"
             >
               Learn More About Me
               <ArrowRight size={20} />

@@ -1,48 +1,118 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Darker San Diego Padres Inspired Color Palette */
-  --dark-chocolate: #2F241F;
-  --rich-brown: #4A3C2C;
-  --warm-gray: #6B5D52;
-  --padres-gold: #FFC425;
-  --muted-gold: #D4A849;
-  --cream: #F5F1E8;
-  --deep-navy: #1A1D2E;
-  --warm-beige: #E8DFD3;
-  --soft-white: #FEFDFB;
-  --charcoal-brown: #3D3229;
+  /* Master Brand Colors */
+  --primary-blue: #87A3DD;
+  --secondary-blue: #5C66C0;
+  --tan: #F0E6D9;
+  --charcoal: #1e293b;
+  --light-gray: #f8fafc;
+  --white: #ffffff;
   
   /* Text Colors */
-  --text-primary-dark: var(--cream);
-  --text-secondary-dark: var(--warm-beige);
-  --text-muted-dark: var(--warm-gray);
-  --text-primary-light: var(--dark-chocolate);
-  --text-secondary-light: var(--rich-brown);
-  --text-muted-light: var(--warm-gray);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
   
-  /* Background Colors */
-  --bg-primary-dark: var(--dark-chocolate);
-  --bg-secondary-dark: var(--charcoal-brown);
-  --bg-card-dark: var(--rich-brown);
-  --bg-primary-light: var(--cream);
-  --bg-card-light: #FFFFFF;
+  /* Venture Accent Colors */
+  --venture-personal: #87A3DD;
+  --venture-finance: #5C66C0;
+  --venture-asset: #87A3DD;
+  --venture-yak: #5C66C0;
 }
 
 body {
-  color: var(--text-primary-light);
-  background: var(--bg-primary-light);
-  font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-primary);
+  background: var(--tan);
+  font-family: 'Inter', system-ui, sans-serif;
   font-weight: 400;
-  line-height: 1.625;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  
+  /* Typography Hierarchy */
+  .site-logo {
+    @apply text-2xl md:text-3xl font-bold;
+    color: var(--secondary-blue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  
+  .hero-headline {
+    @apply text-5xl md:text-6xl font-bold;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .hero-tagline {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .page-title {
+    @apply text-4xl font-bold;
+    color: var(--text-primary);
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold;
+    color: var(--text-primary);
+  }
+  
+  .subsection-title {
+    @apply text-2xl font-semibold;
+    color: var(--text-primary);
+  }
+  
+  .card-title {
+    @apply text-xl font-semibold;
+    color: var(--text-primary);
+  }
+  
+  .body-text {
+    @apply text-base text-slate-700 leading-relaxed;
+  }
+  
+  .small-text {
+    @apply text-sm text-slate-600;
+  }
+  
+  .caption-text {
+    @apply text-xs text-slate-500;
+  }
+  
+  /* Financial numbers use monospace */
+  .financial {
+    @apply font-mono;
+  }
+  
+  /* Animated gradient background */
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-gradient-shift {
+    background-size: 200% 200%;
+    animation: gradient-shift 15s ease infinite;
+  }
 }
+

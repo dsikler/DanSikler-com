@@ -13,9 +13,9 @@ export default function YakBones() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-4 py-16 bg-tan min-h-screen">
       <div className="max-w-3xl mx-auto">
-        <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200">
+        <div className="bg-white rounded-xl shadow-lg p-8 border border-primary/20">
           <h1 className="text-4xl font-bold text-primary mb-4">Yak Brothers</h1>
           <p className="text-lg text-gray-700 mb-6">
             E-commerce platform for unique products and experiences.

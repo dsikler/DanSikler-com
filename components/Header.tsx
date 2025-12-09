@@ -19,7 +19,7 @@ export default function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm border-b border-slate-200">
+    <header className="sticky top-0 z-50 bg-tan shadow-sm border-b border-primary/20">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-center h-16">
           {/* Desktop Navigation */}
