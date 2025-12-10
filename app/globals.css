@@ -16,6 +16,21 @@
   --color-tan-dark: #E5D4C0;
   --color-tan-light: #F5EEE5;
   --color-charcoal: #1e293b;
+  
+  /* Also define as individual colors for Tailwind v4 */
+  --color-primary-DEFAULT: #87A3DD;
+}
+
+@layer theme {
+  :root {
+    --primary: #87A3DD;
+    --primary-dark: #5C66C0;
+    --accent: #5C66C0;
+    --accent-dark: #4A5399;
+    --tan: #F0E6D9;
+    --tan-dark: #E5D4C0;
+    --charcoal: #1e293b;
+  }
 }
 
 :root {
@@ -50,6 +65,47 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  
+  /* Force custom color utilities as fallback */
+  .bg-primary {
+    background-color: #87A3DD !important;
+  }
+  
+  .bg-primary-dark {
+    background-color: #5C66C0 !important;
+  }
+  
+  .bg-accent {
+    background-color: #5C66C0 !important;
+  }
+  
+  .bg-tan {
+    background-color: #F0E6D9 !important;
+  }
+  
+  .bg-charcoal {
+    background-color: #1e293b !important;
+  }
+  
+  .text-primary {
+    color: #87A3DD !important;
+  }
+  
+  .text-accent {
+    color: #5C66C0 !important;
+  }
+  
+  .text-charcoal {
+    color: #1e293b !important;
+  }
+  
+  .border-primary {
+    border-color: #87A3DD !important;
+  }
+  
+  .border-accent {
+    border-color: #5C66C0 !important;
   }
   
   /* Typography Hierarchy */
