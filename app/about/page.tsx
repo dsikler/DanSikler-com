@@ -21,7 +21,7 @@ export default function About() {
           {/* Right Column - Photo */}
           <div>
             <img
-              src="/IMG_4757.jpeg"
+              src="/dan-sikler-about-me.jpeg"
               alt="Dan Sikler standing on a rocky outcrop overlooking a stunning blue lake surrounded by mountains"
               className="rounded-lg shadow-xl w-[70%] object-cover aspect-[4/5]"
             />
