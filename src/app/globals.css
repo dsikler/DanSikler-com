@@ -73,6 +73,47 @@ body {
     text-wrap: balance;
   }
   
+  /* Force custom color utilities as fallback */
+  .bg-primary {
+    background-color: #87A3DD !important;
+  }
+  
+  .bg-primary-dark {
+    background-color: #5C66C0 !important;
+  }
+  
+  .bg-accent {
+    background-color: #5C66C0 !important;
+  }
+  
+  .bg-tan {
+    background-color: #F0E6D9 !important;
+  }
+  
+  .bg-charcoal {
+    background-color: #1e293b !important;
+  }
+  
+  .text-primary {
+    color: #87A3DD !important;
+  }
+  
+  .text-accent {
+    color: #5C66C0 !important;
+  }
+  
+  .text-charcoal {
+    color: #1e293b !important;
+  }
+  
+  .border-primary {
+    border-color: #87A3DD !important;
+  }
+  
+  .border-accent {
+    border-color: #5C66C0 !important;
+  }
+  
   /* Typography Hierarchy */
   .site-logo {
     font-size: 1.5rem;
