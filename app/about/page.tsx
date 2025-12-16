@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <div className="bg-[#F5F1E8] min-h-screen">
+    <div className="bg-[#F5F1E8] dark:bg-[#FEFDFB] min-h-screen">
       {/* Navigation Header */}
-      <nav className="bg-[#F5F1E8] border-b border-[#E8DFD3] sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
+      <nav className="bg-[#F5F1E8] dark:bg-[#FEFDFB] border-b border-[#E8DFD3] dark:border-[#E8DFD3]/50 sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <Link 
             href="/" 
-            className="inline-flex items-center gap-2 text-[#4A3C2C] hover:text-[#FFC425] font-semibold transition-colors duration-300 group"
+            className="inline-flex items-center gap-2 text-[#4A3C2C] dark:text-[#2F241F] hover:text-[#FFC425] font-semibold transition-colors duration-300 group"
           >
             <Home className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
             <span>Back to Home</span>
@@ -19,7 +19,7 @@ export default function About() {
       
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Hero Section */}
-        <section className="relative bg-[#F5F1E8] overflow-hidden mb-16">
+        <section className="relative bg-[#F5F1E8] dark:bg-[#FEFDFB] overflow-hidden mb-16">
           {/* Subtle accent elements */}
           <div className="absolute inset-0 overflow-hidden opacity-10">
             <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#FFC425] rounded-full blur-[120px]"></div>
@@ -29,13 +29,13 @@ export default function About() {
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Column - Text */}
             <div className="space-y-6">
-              <h1 className="text-5xl md:text-6xl font-bold text-[#4A3C2C] tracking-tight leading-none">
+              <h1 className="text-5xl md:text-6xl font-bold text-[#4A3C2C] dark:text-[#2F241F] tracking-tight leading-none">
                 Hey, I'm Dan
               </h1>
-              <h2 className="text-xl text-[#6B5D52] font-medium">
+              <h2 className="text-xl text-[#6B5D52] dark:text-[#4A3C2C] font-medium">
                 Trust & Safety Program Leader | AI Enthusiast | Real Estate Investor
               </h2>
-              <p className="text-lg text-[#4A3C2C] leading-relaxed">
+              <p className="text-lg text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
                 Based in Wadsworth, Ohio, I'm a Trust & Safety operations program leader at Indeed, where I train AI models and optimize content moderation systems. Beyond my day job, I'm an entrepreneur building ventures across technology, real estate, and e-commerce, always looking for ways to create value and solve real problems.
               </p>
             </div>
@@ -62,9 +62,9 @@ export default function About() {
         </section>
 
         {/* Section 1: Professional Background */}
-        <section className="bg-white border border-[#E8DFD3] rounded-xl p-8 mb-12">
-          <h2 className="text-3xl font-bold text-[#4A3C2C] mb-6">What I Do Professionally</h2>
-          <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed">
+        <section className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-8 mb-12">
+          <h2 className="text-3xl font-bold text-[#4A3C2C] dark:text-[#2F241F] mb-6">What I Do Professionally</h2>
+          <div className="space-y-4 text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
             <p>
               I lead Trust & Safety operations for one of the world's largest job platforms, specializing in AI model training, prompt engineering, and content moderation at scale. My work involves training GPT models, designing golden datasets, and building SQL-based frameworks that balance automation with human oversight.
             </p>
@@ -76,10 +76,10 @@ export default function About() {
 
         {/* Section 2: The Productivity Obsession */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A3C2C] mb-6">Tracking Everything</h2>
+          <h2 className="text-3xl font-bold text-[#4A3C2C] dark:text-[#2F241F] mb-6">Tracking Everything</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Left Column - Text */}
-            <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed">
+            <div className="space-y-4 text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
               <p>
                 I'm a productivity geek who lives by the principle that if you cannot measure it, you cannot improve it. I track weekly tasks, daily habits, every penny I spend, calories consumed, and weights lifted. If there's a metric, I'm probably measuring it in a spreadsheet.
               </p>
@@ -89,12 +89,12 @@ export default function About() {
             </div>
 
             {/* Right Column - Callout Box */}
-            <div className="bg-[#FFC425]/10 border-l-4 border-[#FFC425] p-6 rounded-lg">
+            <div className="bg-[#FFC425]/10 dark:bg-[#FFC425]/20 border-l-4 border-[#FFC425] p-6 rounded-lg">
               <TrendingUp className="w-8 h-8 text-[#FFC425] mb-3" />
-              <p className="text-xl font-semibold text-[#4A3C2C] mb-2">
+              <p className="text-xl font-semibold text-[#4A3C2C] dark:text-[#2F241F] mb-2">
                 "If you cannot measure it, you cannot improve it."
               </p>
-              <p className="text-sm text-[#6B5D52] italic">
+              <p className="text-sm text-[#6B5D52] dark:text-[#4A3C2C] italic">
                 — Lord Kelvin
               </p>
             </div>
@@ -103,8 +103,8 @@ export default function About() {
 
         {/* Section 3: AI & The Future */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A3C2C] mb-6">Why AI Matters</h2>
-          <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed mb-12">
+          <h2 className="text-3xl font-bold text-[#4A3C2C] dark:text-[#2F241F] mb-6">Why AI Matters</h2>
+          <div className="space-y-4 text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed mb-12">
             <p>
               I'm a big believer that AI is the future, and those who become experts in it will be best positioned for success. Like any powerful technology, it can be used to grow and become more efficient, or it can be used wastefully or even nefariously.
             </p>
@@ -115,9 +115,9 @@ export default function About() {
         </section>
 
         {/* Section 4: The Investor Mindset */}
-        <section className="bg-white border border-[#E8DFD3] rounded-xl p-8 mb-12">
-          <h2 className="text-3xl font-bold text-[#4A3C2C] mb-6">Building Wealth & Sweat Equity</h2>
-          <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed">
+        <section className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-8 mb-12">
+          <h2 className="text-3xl font-bold text-[#4A3C2C] dark:text-[#2F241F] mb-6">Building Wealth & Sweat Equity</h2>
+          <div className="space-y-4 text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
             <p>
               I maintain an investor mindset across multiple asset classes: equities, crypto, commodities, and real estate. But real estate is where I get to roll up my sleeves and build sweat equity.
             </p>
@@ -132,8 +132,8 @@ export default function About() {
 
         {/* Section 5: Family & Dogs */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-[#4A3C2C] mb-6">Family First</h2>
-          <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed mb-6">
+          <h2 className="text-3xl font-bold text-[#4A3C2C] dark:text-[#2F241F] mb-6">Family First</h2>
+          <div className="space-y-4 text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed mb-6">
             <p>
               I'm engaged to marry my best friend, and together we've built a small family with our two dogs. We love taking them on adventures, spoiling them in every way possible, and hopefully expanding our family in the future.
             </p>
@@ -171,8 +171,8 @@ export default function About() {
             {/* Column 1 - Fitness */}
             <div>
               <Dumbbell className="w-10 h-10 text-[#FFC425] mb-3" />
-              <h3 className="text-xl font-semibold text-[#4A3C2C] mb-2">Fitness</h3>
-              <p className="text-base text-[#4A3C2C] leading-relaxed">
+              <h3 className="text-xl font-semibold text-[#4A3C2C] dark:text-[#2F241F] mb-2">Fitness</h3>
+              <p className="text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
                 I've hit the gym 4 times a week for over a decade. Dedicated to the craft of strength, health, and longevity.
               </p>
             </div>
@@ -180,8 +180,8 @@ export default function About() {
             {/* Column 2 - Wellness */}
             <div>
               <Heart className="w-10 h-10 text-[#FFC425] mb-3" />
-              <h3 className="text-xl font-semibold text-[#4A3C2C] mb-2">Wellness</h3>
-              <p className="text-base text-[#4A3C2C] leading-relaxed">
+              <h3 className="text-xl font-semibold text-[#4A3C2C] dark:text-[#2F241F] mb-2">Wellness</h3>
+              <p className="text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
                 Meal prep, sauna sessions, meditation, and breathwork keep me grounded and focused.
               </p>
             </div>
@@ -189,8 +189,8 @@ export default function About() {
             {/* Column 3 - Consistency */}
             <div>
               <Calendar className="w-10 h-10 text-[#FFC425] mb-3" />
-              <h3 className="text-xl font-semibold text-[#4A3C2C] mb-2">Consistency</h3>
-              <p className="text-base text-[#4A3C2C] leading-relaxed">
+              <h3 className="text-xl font-semibold text-[#4A3C2C] dark:text-[#2F241F] mb-2">Consistency</h3>
+              <p className="text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
                 Health isn't a sprint, it's a decade-long commitment to showing up every single day.
               </p>
             </div>
@@ -199,9 +199,9 @@ export default function About() {
 
         {/* Section 7: Travel & Adventure */}
         <section className="mb-8">
-          <h2 className="text-3xl font-bold text-[#4A3C2C] mb-6">Travel & Remote Life</h2>
-          <div className="bg-white border border-[#E8DFD3] rounded-xl p-8 mb-8">
-            <div className="space-y-4 text-base text-[#4A3C2C] leading-relaxed">
+          <h2 className="text-3xl font-bold text-[#4A3C2C] dark:text-[#2F241F] mb-6">Travel & Remote Life</h2>
+          <div className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-8 mb-8">
+            <div className="space-y-4 text-base text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed">
               <p>
                 One of my proudest accomplishments was buying an old RV, renovating it, and living in it while working remotely across the western United States. I've lived in multiple states, always taking full advantage of the remote lifestyle.
               </p>
@@ -213,7 +213,7 @@ export default function About() {
 
           {/* Travel Photos Section */}
           <div className="mt-8">
-            <h3 className="text-2xl font-semibold text-[#4A3C2C] mb-6">Some Favorite Travel Moments</h3>
+            <h3 className="text-2xl font-semibold text-[#4A3C2C] dark:text-[#2F241F] mb-6">Some Favorite Travel Moments</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
                 { src: '/travel_photos/addvsfg.jpeg', alt: 'Travel moment' },

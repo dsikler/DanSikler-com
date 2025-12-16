@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#2F241F]">
       {/* Hero Section - Darker & Bolder */}
-      <section className="relative bg-[#F5F1E8] overflow-hidden">
+      <section className="relative bg-[#F5F1E8] dark:bg-[#FEFDFB] overflow-hidden">
         
         {/* Subtle accent elements */}
         <div className="absolute inset-0 overflow-hidden opacity-10">
@@ -40,20 +40,20 @@ export default function Home() {
             <div className="space-y-8">
               
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white border border-[#E8DFD3] rounded-full text-[#4A3C2C] text-sm font-medium">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-full text-[#4A3C2C] dark:text-[#2F241F] text-sm font-medium">
                 <span className="w-2 h-2 bg-[#FFC425] rounded-full animate-pulse"></span>
                 <span>Building ventures across industries</span>
               </div>
               
               {/* Name */}
     <div>
-                <h1 className="text-6xl md:text-7xl font-bold text-[#4A3C2C] tracking-tight leading-none">
+                <h1 className="text-6xl md:text-7xl font-bold text-[#4A3C2C] dark:text-[#2F241F] tracking-tight leading-none">
                   Dan Sikler
                 </h1>
               </div>
               
               {/* Description */}
-              <p className="text-lg text-[#4A3C2C] leading-relaxed max-w-xl">
+              <p className="text-lg text-[#4A3C2C] dark:text-[#2F241F] leading-relaxed max-w-xl">
                 Trust & Safety leader, AI specialist, real estate investor, and entrepreneur. 
                 Building ventures that create value across technology, property, and e-commerce.
               </p>
@@ -70,7 +70,7 @@ export default function Home() {
                 </a>
                 <a 
                   href="/resume" 
-                  className="px-8 py-4 bg-transparent border-2 border-[#6B5D52] hover:border-[#FFC425] text-[#2F241F] rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2"
+                  className="px-8 py-4 bg-transparent border-2 border-[#6B5D52] hover:border-[#FFC425] text-[#2F241F] dark:text-[#2F241F] rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <FileText className="w-5 h-5" />
                   View Resume
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
               
               {/* Info */}
-              <div className="flex items-center gap-6 text-sm text-[#6B5D52] pt-4">
+              <div className="flex items-center gap-6 text-sm text-[#6B5D52] dark:text-[#4A3C2C] pt-4">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-[#FFC425] rounded-full animate-pulse"></div>
                   <span>Available for opportunities</span>
@@ -281,50 +281,50 @@ export default function Home() {
       </section>
 
       {/* Skills Section - Lighter Contrast */}
-      <section className="py-24 bg-[#F5F1E8]">
+      <section className="py-24 bg-[#F5F1E8] dark:bg-[#FEFDFB]">
         <div className="max-w-7xl mx-auto px-6">
           
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl font-bold text-[#2F241F]">
+            <h2 className="text-4xl font-bold text-[#2F241F] dark:text-[#2F241F]">
               Core Competencies
             </h2>
-            <p className="text-lg text-[#4A3C2C]">
+            <p className="text-lg text-[#4A3C2C] dark:text-[#4A3C2C]">
               Cross-functional expertise across technology, operations, and business
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             
-            <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Cpu className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">AI Strategy & Model Training</h3>
-              <p className="text-sm text-[#6B5D52]">Optimizing LLMs through advanced prompt engineering, golden dataset curation, and rigorous SQL-based performance auditing.</p>
+              <h3 className="font-bold text-[#2F241F] dark:text-[#2F241F] mb-2">AI Strategy & Model Training</h3>
+              <p className="text-sm text-[#6B5D52] dark:text-[#4A3C2C]">Optimizing LLMs through advanced prompt engineering, golden dataset curation, and rigorous SQL-based performance auditing.</p>
             </div>
             
-            <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Users className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">Trust & Safety Operations</h3>
-              <p className="text-sm text-[#6B5D52]">Safeguarding platforms via global content moderation, high-stakes escalation management, and strategic policy enforcement.</p>
+              <h3 className="font-bold text-[#2F241F] dark:text-[#2F241F] mb-2">Trust & Safety Operations</h3>
+              <p className="text-sm text-[#6B5D52] dark:text-[#4A3C2C]">Safeguarding platforms via global content moderation, high-stakes escalation management, and strategic policy enforcement.</p>
             </div>
             
-            <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <BarChart3 className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">Global Program Management</h3>
-              <p className="text-sm text-[#6B5D52]">Scaling operational efficiency through vendor leadership, cross-functional migrations, and standardized QA frameworks.</p>
+              <h3 className="font-bold text-[#2F241F] dark:text-[#2F241F] mb-2">Global Program Management</h3>
+              <p className="text-sm text-[#6B5D52] dark:text-[#4A3C2C]">Scaling operational efficiency through vendor leadership, cross-functional migrations, and standardized QA frameworks.</p>
             </div>
             
-            <div className="bg-white border border-[#E8DFD3] rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white dark:bg-[#FEFDFB] border border-[#E8DFD3] dark:border-[#E8DFD3]/50 rounded-xl p-6 text-center hover:border-[#FFC425] hover:shadow-lg transition-all duration-300">
               <div className="w-12 h-12 bg-[#FFC425]/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="w-6 h-6 text-[#FFC425]" />
               </div>
-              <h3 className="font-bold text-[#2F241F] mb-2">Data Analytics & Strategic Investment</h3>
-              <p className="text-sm text-[#6B5D52]">Leveraging SQL-driven insights and financial expertise to automate workflows, reduce manual overhead, and maximize asset performance.</p>
+              <h3 className="font-bold text-[#2F241F] dark:text-[#2F241F] mb-2">Data Analytics & Strategic Investment</h3>
+              <p className="text-sm text-[#6B5D52] dark:text-[#4A3C2C]">Leveraging SQL-driven insights and financial expertise to automate workflows, reduce manual overhead, and maximize asset performance.</p>
             </div>
           </div>
         </div>
