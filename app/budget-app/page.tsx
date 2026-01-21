@@ -17,7 +17,7 @@ export default function BudgetApp() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-tan to-white">
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           {/* Hero Section */}
@@ -27,7 +27,7 @@ export default function BudgetApp() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-blue-500 rounded-full mb-6">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-full mb-6">
               <Calculator className="text-white" size={40} />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6">
@@ -48,7 +48,7 @@ export default function BudgetApp() {
               className="bg-white rounded-xl shadow-lg p-8 border border-gray-200 hover:shadow-xl transition-shadow"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="bg-accent p-3 rounded-lg">
+                <div className="bg-primary p-3 rounded-lg">
                   <LogIn className="text-white" size={24} />
                 </div>
                 <h2 className="text-2xl font-bold text-primary">Create an Account</h2>
@@ -69,7 +69,7 @@ export default function BudgetApp() {
                   href={BUDGET_APP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-accent hover:underline font-semibold"
+                  className="text-primary hover:underline font-semibold"
                 >
                   Sign In
                 </a>
@@ -115,21 +115,21 @@ export default function BudgetApp() {
             <h2 className="text-3xl font-bold text-primary mb-6 text-center">Key Features</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <BarChart3 className="text-accent mx-auto mb-3" size={32} />
+                <BarChart3 className="text-primary mx-auto mb-3" size={32} />
                 <h3 className="font-semibold text-gray-800 mb-2">Track Transactions</h3>
                 <p className="text-sm text-gray-600">
                   Monitor income, expenses, and investments in real-time
                 </p>
               </div>
               <div className="text-center">
-                <Target className="text-accent mx-auto mb-3" size={32} />
+                <Target className="text-primary mx-auto mb-3" size={32} />
                 <h3 className="font-semibold text-gray-800 mb-2">50/30/20 Budget</h3>
                 <p className="text-sm text-gray-600">
                   Follow the proven budgeting method for financial success
                 </p>
               </div>
               <div className="text-center">
-                <TrendingUp className="text-accent mx-auto mb-3" size={32} />
+                <TrendingUp className="text-primary mx-auto mb-3" size={32} />
                 <h3 className="font-semibold text-gray-800 mb-2">Monitor Progress</h3>
                 <p className="text-sm text-gray-600">
                   Track your financial goals and see your progress over time
@@ -143,7 +143,7 @@ export default function BudgetApp() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="bg-gradient-to-br from-primary to-primary-dark rounded-xl shadow-lg p-8 text-white"
+            className="bg-gradient-to-br from-accent to-primary-dark rounded-xl shadow-lg p-8 text-white"
           >
             <h2 className="text-3xl font-bold mb-6">Quick Start Guide</h2>
             <div className="space-y-4">

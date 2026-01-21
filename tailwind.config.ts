@@ -10,53 +10,43 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Darker San Diego Padres Inspired Palette
-        chocolate: {
-          dark: '#2F241F',
-          DEFAULT: '#2F241F',
+        // Master Brand Colors
+        primary: {
+          DEFAULT: '#87A3DD', // Primary Blue - soft, approachable blue
+          dark: '#5C66C0', // Secondary Blue - deeper, richer blue
+          light: '#A8C0F0',
         },
-        brown: {
-          rich: '#4A3C2C',
-          DEFAULT: '#4A3C2C',
-          charcoal: '#3D3229',
+        accent: {
+          DEFAULT: '#5C66C0', // Secondary Blue
+          dark: '#4A5399',
+          light: '#87A3DD', // Primary Blue
         },
-        gray: {
-          warm: '#6B5D52',
-          DEFAULT: '#6B5D52',
+        tan: {
+          DEFAULT: '#F0E6D9', // Tan/Pale Primary - warm neutral for backgrounds
+          dark: '#E5D4C0',
+          light: '#F5EEE5',
         },
-        gold: {
-          padres: '#FFC425',
-          muted: '#D4A849',
-          DEFAULT: '#FFC425',
+        charcoal: '#1e293b', // Charcoal for dark sections
+        // Venture-Specific Accent Colors
+        venture: {
+          personal: '#87A3DD', // Primary Blue for Personal/Resume
+          finance: '#5C66C0', // Secondary Blue for Elevate Finance
+          asset: '#87A3DD', // Primary Blue for Elevate Asset Management
+          yak: '#5C66C0', // Secondary Blue for Yak Bones
         },
-        cream: {
-          DEFAULT: '#F5F1E8',
-        },
-        navy: {
-          deep: '#1A1D2E',
-          DEFAULT: '#1A1D2E',
-        },
-        beige: {
-          warm: '#E8DFD3',
-          DEFAULT: '#E8DFD3',
-        },
-        white: {
-          soft: '#FEFDFB',
-          DEFAULT: '#FFFFFF',
-        },
+        // Functional Colors
+        success: '#10b981',
+        warning: '#f59e0b',
+        error: '#ef4444',
+        info: '#87A3DD',
       },
       fontFamily: {
-        sans: ['DM Sans', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
         mono: ['ui-monospace', 'SFMono-Regular', 'monospace'],
-      },
-      letterSpacing: {
-        tighter: '-0.02em',
-        tight: '-0.01em',
-        normal: '0',
-        wide: '0.01em',
       },
     },
   },
   plugins: [],
 }
 export default config
+
