@@ -11,10 +11,10 @@ export default function About() {
           <div>
             <h1 className="text-4xl font-bold text-white mb-4">Hey, I'm Dan</h1>
             <h2 className="text-xl text-slate-300 mb-6">
-              Trust & Safety Program Leader | AI Enthusiast | Real Estate Investor
+              Trust & Safety Program Leader | Technical Project Manager | Builder
             </h2>
             <p className="text-lg text-white leading-relaxed">
-              Based in St. Augustine, Florida, I'm a Trust & Safety operations program leader at Indeed, where I train AI models and optimize content moderation systems. Beyond my day job, I'm an entrepreneur building ventures across technology, real estate, and e-commerce, always looking for ways to create value and solve real problems.
+              I lead Trust & Safety operations at Indeed-Glassdoor, where I train AI models, manage cross-functional projects, and optimize content moderation systems at scale. Based in Wadsworth, Ohio, I spend my free time building things that solve problems I actually have. Like Elevate Ledger, a budgeting tool I created when existing finance apps didn't cut it. I also invest in real estate and tinker with new business ideas. If there's a more efficient way to do something, I'm probably already thinking about it.
             </p>
           </div>
 
@@ -33,11 +33,110 @@ export default function About() {
           <h2 className="text-3xl font-bold text-white mb-6">What I Do Professionally</h2>
           <div className="space-y-4 text-base text-white leading-relaxed">
             <p>
-              I lead Trust & Safety operations for one of the world's largest job platforms, specializing in AI model training, prompt engineering, and content moderation at scale. My work involves training GPT models, designing golden datasets, and building SQL-based frameworks that balance automation with human oversight.
+              I lead Trust & Safety operations at Indeed-Glassdoor, where I own the product roadmap for moderation systems and coordinate engineering teams through sprint planning and Agile delivery. My work spans AI model training (achieving 92.7% accuracy), prompt engineering, UAT leadership, and cross-functional program management across Legal, Product, and Engineering organizations.
             </p>
             <p>
-              With a background in Finance from Kent State University and 6+ years in operations, I've managed global BPO teams, driven complex technical migrations, and implemented data-driven solutions that improve accuracy and efficiency. I'm passionate about leveraging AI to make systems smarter, safer, and more effective.
+              With 7+ years in Trust & Safety operations and a Finance degree from Kent State, I've led complex technical migrations, managed global BPO teams across 5 countries, and implemented regulatory compliance programs (DSA). I build SQL-based frameworks that balance AI automation with human oversight, making content moderation smarter, safer, and more scalable.
             </p>
+          </div>
+        </section>
+
+        {/* Skills & Expertise */}
+        <section className="bg-slate-800/50 rounded-xl p-8 mb-12 border border-primary/20">
+          <h2 className="text-3xl font-bold text-white mb-6">Skills &amp; Expertise</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">AI &amp; Machine Learning</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>- GenAI Prompt Engineering &amp; LLM Optimization</li>
+                <li>- AI Model Training &amp; Golden Dataset Curation</li>
+                <li>- GPT Model Fine-Tuning &amp; Performance Analysis</li>
+                <li>- AI Output Auditing &amp; Model Drift Detection</li>
+                <li>- Bias Detection &amp; Quality Threshold Calibration</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Project &amp; Program Management</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>- Agile/Scrum Methodologies (Sprint Planning, Backlog Grooming, Retrospectives)</li>
+                <li>- User Acceptance Testing (UAT) Leadership</li>
+                <li>- JIRA Backlog Management &amp; Defect Triage</li>
+                <li>- Cross-Functional Stakeholder Coordination</li>
+                <li>- Risk Management &amp; Mitigation Strategies</li>
+                <li>- Change Management &amp; Process Redesign</li>
+                <li>- Regulatory Compliance Program Management (DSA)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Data &amp; Analytics</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>- SQL (Advanced Querying, Performance Dashboards, Data Validation)</li>
+                <li>- Tableau Analytics &amp; Data Visualization</li>
+                <li>- Root Cause Analysis &amp; A/B Testing</li>
+                <li>- KPI Tracking &amp; Performance Metrics</li>
+                <li>- Database Management &amp; Troubleshooting</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Trust &amp; Safety Operations</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>- Content Moderation Strategy &amp; Policy Enforcement</li>
+                <li>- QA Framework Design &amp; Calibration</li>
+                <li>- Escalation Management &amp; Resolution</li>
+                <li>- Vendor &amp; BPO Operations (60+ Offshore Moderators, 5 Countries)</li>
+                <li>- Compliance &amp; Audit Management</li>
+              </ul>
+            </div>
+
+            <div className="md:col-span-2">
+              <h3 className="text-xl font-semibold text-white mb-3">Technical Platforms</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>
+                  <span className="font-semibold">Project Management:</span> Jira, Microsoft Project
+                </li>
+                <li>
+                  <span className="font-semibold">Data:</span> Superset, Tableau, SQL (PostgreSQL, MySQL)
+                </li>
+                <li>
+                  <span className="font-semibold">Moderation &amp; Training:</span> Retool, Lessonly, Guru
+                </li>
+                <li>
+                  <span className="font-semibold">CRM/Business:</span> Salesforce, NetSuite
+                </li>
+                <li>
+                  <span className="font-semibold">Development:</span> JavaScript, Cursor, Git
+                </li>
+                <li>
+                  <span className="font-semibold">Collaboration:</span> Slack, Teams, Zoom, Google Workspace
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Product &amp; Strategy</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>- Product Roadmap Ownership</li>
+                <li>- Requirements Definition &amp; Acceptance Criteria Development</li>
+                <li>- Engineering Partnership &amp; Coordination</li>
+                <li>- Sprint Planning &amp; Backlog Refinement</li>
+                <li>- Stakeholder Alignment Across Legal, Product, Engineering</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-3">Business &amp; Operations</h3>
+              <ul className="space-y-2 text-base text-white leading-relaxed">
+                <li>- Operational Excellence &amp; Process Optimization</li>
+                <li>- Budgeting &amp; Cost Management</li>
+                <li>- Supply Chain &amp; Inventory Management</li>
+                <li>- Workforce Management &amp; Resource Allocation</li>
+                <li>- Property Management &amp; Real Estate Investment</li>
+              </ul>
+            </div>
           </div>
         </section>
 
@@ -105,7 +204,7 @@ export default function About() {
               I'm engaged to marry my best friend, and together we've built a small family with our two dogs. We love taking them on adventures, spoiling them in every way possible, and hopefully expanding our family in the future.
             </p>
             <p>
-              Our dogs aren't just pets, they're family members who get the best care, the longest walks, and definitely the premium treats (which is exactly why I'm launching Yak Brothers, by the way).
+              Our dogs aren't just pets, they're family members who get the best care, the longest walks, and definitely the premium treats.
             </p>
           </div>
 

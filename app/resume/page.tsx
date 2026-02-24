@@ -17,7 +17,7 @@ export default function Resume() {
               <h2 className="text-2xl font-semibold text-gray-800">Resume</h2>
             </div>
             <a
-              href="/Dan_Sikler_Resume.pdf"
+              href="/Dan_Sikler_Resume_2026.pdf"
               download
               className="flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors"
             >
@@ -29,7 +29,7 @@ export default function Resume() {
           {/* PDF Embed */}
           <div className="border border-gray-200 rounded-lg overflow-hidden">
             <iframe
-              src="/Dan_Sikler_Resume.pdf"
+              src="/Dan_Sikler_Resume_2026.pdf"
               className="w-full h-[800px]"
               title="Resume PDF"
             />

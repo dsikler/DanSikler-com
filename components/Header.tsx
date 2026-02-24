@@ -10,7 +10,6 @@ const navItems = [
   { href: '/about', label: 'About' },
   { href: 'https://elevate-ledger.netlify.app/', label: 'The Elevate Ledger' },
   { href: 'https://elevate-asset-management.netlify.app/', label: 'Elevate Asset Management' },
-  { href: 'https://yak-brothers.netlify.app/', label: 'Yak Brothers' },
   { href: '/resume', label: 'Resume' },
 ]
 
@@ -109,4 +108,3 @@ export default function Header() {
     </header>
   )
 }
-

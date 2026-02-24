@@ -18,19 +18,10 @@ const ventures = [
   {
     title: 'Elevate Asset Management',
     description: 'Real estate investment and asset management company.',
-    href: '/elevate',
+    href: 'https://elevate-asset-management.netlify.app/',
     icon: Building2,
     color: 'bg-primary',
     ventureType: 'asset' as const,
-  },
-  {
-    title: 'Yak Brothers',
-    description: 'E-commerce platform for premium dog chews and pet products.',
-    href: 'https://yak-brothers.netlify.app/',
-    icon: Bone,
-    color: 'bg-accent',
-    comingSoon: false,
-    ventureType: 'yak' as const,
   },
   {
     title: 'Resume and Skills',

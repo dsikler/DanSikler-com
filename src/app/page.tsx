@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-blue-300" />
-                  <span className="text-blue-200">St. Augustine, FL</span>
+                  <span className="text-blue-200">Wadsworth, OH</span>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="w-5 h-5 text-gray-400" />
-              <span className="text-gray-600 font-semibold">St. Augustine, Florida</span>
+              <span className="text-gray-600 font-semibold">Wadsworth, Ohio</span>
             </div>
             <div className="flex items-center gap-3">
               <Award className="w-5 h-5 text-gray-400" />
@@ -295,50 +295,6 @@ export default function Home() {
               </div>
             </a>
             
-            {/* Card 4: Yak Bones */}
-            <a href="/yak-bones" className="group relative">
-              <div className="relative bg-white rounded-2xl border-2 border-gray-200 hover:border-green-500 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden">
-                <div className="h-2 bg-gradient-to-r from-green-600 to-green-400"></div>
-                
-                <div className="p-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300 shadow-lg">
-                    <Heart className="w-8 h-8 text-white" />
-                  </div>
-                  
-                  {/* Coming Soon badge */}
-                  <div className="absolute top-6 right-6 px-3 py-1 bg-green-500 text-white rounded-full text-xs font-bold shadow-lg">
-                    Coming Soon
-                  </div>
-                  
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
-                    Yak Bones
-                  </h3>
-                  
-                  <p className="text-gray-600 mb-6 leading-relaxed">
-                    Premium, all-natural yak chews for dogs—healthier treats that last longer and make tails wag
-                  </p>
-                  
-                  <div className="flex flex-wrap gap-2 mb-6">
-                    <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-semibold">
-                      E-commerce
-                    </span>
-                    <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-semibold">
-                      Pet Products
-                    </span>
-                    <span className="px-3 py-1 bg-green-50 text-green-700 rounded-full text-xs font-semibold">
-                      Natural
-                    </span>
-                  </div>
-                  
-                  <div className="flex items-center gap-2 text-green-600 font-semibold group-hover:gap-3 transition-all">
-                    <span>Learn More</span>
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-                
-                <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
-              </div>
-            </a>
           </div>
         </div>
       </section>

@@ -54,8 +54,7 @@ export default function Home() {
               
               {/* Description */}
               <p className="text-lg text-charcoal leading-relaxed max-w-xl">
-                Trust & Safety leader, AI specialist, real estate investor, and entrepreneur. 
-                Building ventures that create value across technology, property, and e-commerce.
+                Trust & Safety leader at Indeed-Glassdoor with a habit of seeing patterns others miss. I spend my days training AI models and managing cross-functional projects, then come home to build side projects like Elevate Ledger, a budgeting app I created after getting frustrated with existing personal finance tools. I also hunt for undervalued real estate and explore new business ideas. I'm drawn to problems where technology, data, and human behavior intersect, and I like building things that actually work.
               </p>
               
               {/* CTAs */}
@@ -159,12 +158,12 @@ export default function Home() {
               What I'm Building
             </h2>
             <p className="text-xl text-tan-light max-w-3xl mx-auto leading-relaxed">
-              Exploring ventures across multiple industries—each designed to solve real problems and create lasting value
+              Exploring ventures across multiple industries, each designed to solve real problems and create lasting value.
             </p>
           </div>
           
           {/* Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center">
             
             {/* Card 1: Resume */}
             <a href="/resume" className="group h-full flex">
@@ -248,33 +247,6 @@ export default function Home() {
               </div>
             </a>
             
-            {/* Card 4: Yak Brothers */}
-            <a href="https://yak-brothers.netlify.app/" target="_blank" rel="noopener noreferrer" className="group relative h-full flex">
-              <div className="bg-slate-800 border border-slate-700/30 hover:border-primary rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-primary/10 flex flex-col w-full">
-                <div className="h-1 bg-gradient-to-r from-primary to-accent"></div>
-                <div className="p-8 space-y-6 flex flex-col flex-1">
-                  {/* Website in Progress badge */}
-                  <div className="absolute top-6 right-6 px-3 py-1 bg-primary text-white rounded-full text-xs font-bold shadow-md">
-                    Website in Progress
-                  </div>
-                  <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                    <Heart className="w-7 h-7 text-primary" />
-                  </div>
-                  <div className="space-y-3 flex-1">
-                    <h3 className="text-2xl font-bold text-tan group-hover:text-primary transition-colors">
-                      Yak Brothers
-                    </h3>
-                    <p className="text-tan-light leading-relaxed">
-                      Premium and all-natural yak chews providing a healthier, longer-lasting treat for happier dogs.
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-2 text-primary font-semibold pt-2 group-hover:gap-3 transition-all mt-auto">
-                    <span>Learn More</span>
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </div>
-            </a>
             
           </div>
         </div>
@@ -355,7 +327,7 @@ export default function Home() {
               <Mail className="w-5 h-5" />
               Get In Touch
             </a>
-            <a href="/Dan_Sikler_Resume.pdf" download="Dan_Sikler_Resume.pdf" className="px-10 py-4 bg-transparent border-2 border-slate-600 hover:border-primary text-tan rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
+            <a href="/Dan_Sikler_Resume_2026.pdf" download="Dan_Sikler_Resume_2026.pdf" className="px-10 py-4 bg-transparent border-2 border-slate-600 hover:border-primary text-tan rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2">
               <Download className="w-5 h-5" />
               Download Resume
             </a>
