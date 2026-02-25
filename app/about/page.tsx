@@ -208,9 +208,9 @@ export default function About() {
             {[
               { src: '/family_first_photos/aaa.jpg', alt: 'Family photo' },
               { src: '/family_first_photos/bbbbb.jpeg', alt: 'Family photo' },
-              { src: '/family_first_photos/cccc.heif', alt: 'Family photo' },
-              { src: '/family_first_photos/IMG_2897.jpeg', alt: 'Family photo' },
+              { src: '/family_first_photos/IMG_2280.jpeg', alt: 'Family photo' },
               { src: '/family_first_photos/IMG_6010.jpeg', alt: 'Family photo' },
+              { src: '/family_first_photos/louie.jpeg', alt: 'Family photo' },
               { src: '/family_first_photos/zzzzz.jpeg', alt: 'Family photo' },
             ].map((photo, index) => (
               <img
