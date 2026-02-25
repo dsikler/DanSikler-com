@@ -4,9 +4,9 @@ import React, { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 
 const blobs = [
-  { size: 200, color: "bg-primary", x: 0, y: 0, opacity: 0.15 },
-  { size: 300, color: "bg-accent", x: 0, y: 0, opacity: 0.1 },
-  { size: 150, color: "bg-charcoal", x: 0, y: 0, opacity: 0.08 },
+  { size: 200, color: "bg-orange", x: 0, y: 0, opacity: 0.12 },
+  { size: 300, color: "bg-blue", x: 0, y: 0, opacity: 0.08 },
+  { size: 150, color: "bg-gold", x: 0, y: 0, opacity: 0.06 },
 ]
 
 const InteractiveBackground = () => {
@@ -61,4 +61,3 @@ const InteractiveBackground = () => {
 }
 
 export default InteractiveBackground
-

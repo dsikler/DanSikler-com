@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { ArrowRight, Calculator, Building2, Bone, Briefcase } from 'lucide-react'
+import { ArrowRight, Calculator, Building2, Briefcase } from 'lucide-react'
 import VentureCard from './VentureCard'
 import InteractiveBackground from './InteractiveBackground'
 
@@ -12,7 +12,7 @@ const ventures = [
     description: 'Personal finance management tool to track expenses and manage budgets effectively.',
     href: 'https://elevate-ledger.netlify.app/',
     icon: Calculator,
-    color: 'bg-accent',
+    color: 'bg-orange',
     ventureType: 'finance' as const,
   },
   {
@@ -20,7 +20,7 @@ const ventures = [
     description: 'Real estate investment and asset management company.',
     href: 'https://elevate-asset-management.netlify.app/',
     icon: Building2,
-    color: 'bg-primary',
+    color: 'bg-blue',
     ventureType: 'asset' as const,
   },
   {
@@ -28,26 +28,20 @@ const ventures = [
     description: 'View my professional background, skills, and accomplishments.',
     href: '/resume',
     icon: Briefcase,
-    color: 'bg-primary',
+    color: 'bg-blue',
     ventureType: 'personal' as const,
   },
 ]
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-charcoal">
-      {/* Interactive Background */}
+    <div className="relative overflow-hidden bg-blue-dark">
       <InteractiveBackground />
-      
-      {/* Gradient overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-accent/60 via-accent/40 to-charcoal/70 z-0" />
-      
-      {/* Additional subtle overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/10 z-0" />
 
-      {/* Content */}
+      <div className="absolute inset-0 bg-gradient-to-b from-blue/60 via-blue/40 to-blue-dark/70 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-orange/5 via-transparent to-gold/5 z-0" />
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-16 lg:pt-20">
-        {/* Hero Text */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -58,7 +52,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-7xl md:text-8xl lg:text-9xl font-bold text-white mb-6 drop-shadow-2xl tracking-wider"
+            className="font-heading text-7xl md:text-8xl lg:text-9xl font-bold text-white mb-6 drop-shadow-2xl tracking-wider"
           >
             DAN SIKLER
           </motion.h1>
@@ -66,7 +60,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl font-light max-w-2xl mx-auto mb-8 drop-shadow-2xl"
+            className="font-heading text-xl md:text-2xl font-light max-w-2xl mx-auto mb-8 drop-shadow-2xl"
             style={{ color: '#ffffff', textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
           >
             Building Value Across Industries
@@ -78,7 +72,7 @@ export default function Hero() {
           >
             <Link
               href="/about"
-              className="inline-flex items-center gap-2 bg-white text-accent px-8 py-4 rounded-lg font-semibold hover:bg-tan hover:scale-105 transition-all shadow-xl hover:shadow-2xl"
+              className="inline-flex items-center gap-2 bg-orange text-white px-8 py-4 rounded-lg font-heading font-semibold hover:bg-[#e04420] hover:scale-105 transition-all shadow-xl hover:shadow-2xl hover:shadow-orange/30"
             >
               Learn More About Me
               <ArrowRight size={20} />
@@ -86,7 +80,6 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Venture Cards Grid - 4 columns as per guidelines */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-24">
           {ventures.map((venture, index) => (
             <motion.div
@@ -103,4 +96,3 @@ export default function Hero() {
     </div>
   )
 }
-
