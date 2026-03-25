@@ -1,4 +1,3 @@
-import { TrendingUp, Dumbbell, Heart, Calendar } from 'lucide-react'
 import Link from 'next/link'
 
 export default function About() {
@@ -152,7 +151,6 @@ export default function About() {
             </div>
 
             <div className="bg-orange/15 border-l-4 border-orange p-6 rounded-lg">
-              <TrendingUp className="w-8 h-8 text-orange mb-3" />
               <p className="font-heading text-xl font-semibold text-white mb-2">
                 "What gets measured gets managed"
               </p>
@@ -228,7 +226,6 @@ export default function About() {
           <h2 className="font-heading text-3xl font-bold text-white mb-6">Living Well</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div>
-              <Dumbbell className="w-10 h-10 text-orange mb-3" />
               <h3 className="font-heading text-xl font-semibold text-white mb-2">Fitness</h3>
               <p className="text-base text-tan leading-relaxed">
                 I've hit the gym 4 times a week for over a decade. Dedicated to the craft of strength, health, and longevity.
@@ -236,7 +233,6 @@ export default function About() {
             </div>
 
             <div>
-              <Heart className="w-10 h-10 text-orange mb-3" />
               <h3 className="font-heading text-xl font-semibold text-white mb-2">Wellness</h3>
               <p className="text-base text-tan leading-relaxed">
                 Meal prep, sauna sessions, meditation, and breathwork keep me grounded and focused.
@@ -244,7 +240,6 @@ export default function About() {
             </div>
 
             <div>
-              <Calendar className="w-10 h-10 text-orange mb-3" />
               <h3 className="font-heading text-xl font-semibold text-white mb-2">Consistency</h3>
               <p className="text-base text-tan leading-relaxed">
                 Health isn't a sprint, it's a decade-long commitment to showing up every single day.
