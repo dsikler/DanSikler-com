@@ -77,20 +77,16 @@ export default function Home() {
               <span>Indeed · Glassdoor</span>
             </div>
             <div className="flex items-center gap-2">
-              <Award className="w-4 h-4 shrink-0 text-gold" />
-              <span>Program and Operations Management</span>
-            </div>
-            <div className="flex items-center gap-2">
               <GraduationCap className="w-4 h-4 shrink-0 text-gold" />
               <span>Kent State University · B.S. Finance</span>
             </div>
             <div className="flex items-center gap-2">
-              <BadgeCheck className="w-4 h-4 shrink-0 text-gold" />
-              <span>PMP Certified</span>
+              <Award className="w-4 h-4 shrink-0 text-gold" />
+              <span>Program and Operations Management</span>
             </div>
             <div className="flex items-center gap-2">
-              <Award className="w-4 h-4 shrink-0 text-gold" />
-              <span>10+ Years Experience</span>
+              <BadgeCheck className="w-4 h-4 shrink-0 text-gold" />
+              <span>PMP Certified</span>
             </div>
           </div>
         </div>
