@@ -1,3 +1,5 @@
+import { Briefcase, Award, GraduationCap, BadgeCheck } from 'lucide-react'
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -69,11 +71,27 @@ export default function Home() {
       {/* Company Bar */}
       <section className="py-8 bg-blue border-y border-blue-dark">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-tan-light font-medium text-center">
-            <span>Indeed · Glassdoor</span>
-            <span>Program and Operations Management</span>
-            <span>Kent State University · B.S. Finance · * PMP Certified</span>
-            <span>10+ Years Experience</span>
+          <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-tan-light font-medium">
+            <div className="flex items-center gap-2">
+              <Briefcase className="w-4 h-4 shrink-0 text-gold" />
+              <span>Indeed · Glassdoor</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Award className="w-4 h-4 shrink-0 text-gold" />
+              <span>Program and Operations Management</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <GraduationCap className="w-4 h-4 shrink-0 text-gold" />
+              <span>Kent State University · B.S. Finance</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <BadgeCheck className="w-4 h-4 shrink-0 text-gold" />
+              <span>PMP Certified</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Award className="w-4 h-4 shrink-0 text-gold" />
+              <span>10+ Years Experience</span>
+            </div>
           </div>
         </div>
       </section>
